@@ -1,0 +1,121 @@
+@define-color bg #140d0d;
+@define-color panel #140d0d;
+@define-color panel-alt #2e1f1f;
+@define-color border #4c3333;
+@define-color text #ebe5e5;
+@define-color muted #ae9898;
+@define-color accent #c7aeae;
+@define-color danger #df9291;
+
+* {
+    font-family: "JetBrainsMono Nerd Font Propo", sans-serif;
+    font-size: 14px;
+}
+
+.control-center {
+    background: alpha(@bg, 0.94);
+    border: 1px solid @border;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 18px 48px rgba(0, 0, 0, 0.45);
+}
+
+.notification-row {
+    outline: none;
+}
+
+.notification {
+    background: @panel;
+    border: 1px solid @border;
+    border-radius: 8px;
+    margin: 6px;
+    padding: 10px;
+}
+
+.notification:hover {
+    background: @panel-alt;
+    border-color: @accent;
+}
+
+.notification.critical {
+    border-color: @danger;
+}
+
+.summary {
+    color: @text;
+    font-weight: 700;
+}
+
+.body,
+.time {
+    color: @muted;
+}
+
+.close-button {
+    background: @panel-alt;
+    color: @text;
+    border: 1px solid @border;
+    border-radius: 6px;
+    min-width: 22px;
+    min-height: 22px;
+}
+
+.close-button:hover {
+    background: @danger;
+    color: @text;
+}
+
+.widget-title {
+    color: @text;
+    margin: 6px;
+    padding: 8px;
+}
+
+.widget-title button {
+    background: @panel-alt;
+    color: @text;
+    border: 1px solid @border;
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+
+.widget-title button:hover {
+    border-color: @accent;
+}
+
+.widget-dnd {
+    background: @panel;
+    border: 1px solid @border;
+    border-radius: 8px;
+    color: @text;
+    margin: 6px;
+    padding: 8px;
+}
+
+.widget-dnd switch {
+    background: @panel-alt;
+    border: 1px solid @border;
+    border-radius: 999px;
+}
+
+.widget-dnd switch:checked {
+    background: @accent;
+}
+
+.widget-mpris {
+    background: @panel;
+    border: 1px solid @border;
+    border-radius: 8px;
+    color: @text;
+    margin: 6px;
+    padding: 10px;
+}
+
+.widget-mpris-title {
+    color: @text;
+    font-weight: 700;
+}
+
+.widget-mpris-subtitle {
+    color: @muted;
+}

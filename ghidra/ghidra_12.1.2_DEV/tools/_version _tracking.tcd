@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TOOL_CONFIG CONFIG_NAME="NO_LONGER_USED">
+    <SUPPORTED_DATA_TYPE CLASS_NAME="ghidra.feature.vt.api.main.VTSession" />
+    <SUPPORTED_DATA_TYPE CLASS_NAME="ghidra.program.model.listing.Program" />
+    <ICON LOCATION="start-here.png" />
+    <TOOL TOOL_NAME="Version Tracking" INSTANCE_NAME="">
+        <OPTIONS />
+        <PACKAGE NAME="Version Tracking">
+            <INCLUDE CLASS="ghidra.feature.vt.gui.plugin.VTPlugin" />
+        </PACKAGE>
+        <PACKAGE NAME="Ghidra Core">
+            <EXCLUDE CLASS="datagraph.DataGraphPlugin" />
+            <EXCLUDE CLASS="functioncalls.plugin.FunctionCallGraphPlugin" />
+            <EXCLUDE CLASS="ghidra.app.decompiler.component.hover.DataTypeDecompilerHoverPlugin" />
+            <EXCLUDE CLASS="ghidra.app.decompiler.component.hover.FunctionSignatureDecompilerHoverPlugin" />
+            <EXCLUDE CLASS="ghidra.app.decompiler.component.hover.ReferenceDecompilerHoverPlugin" />
+            <EXCLUDE CLASS="ghidra.app.decompiler.component.hover.ScalarValueDecompilerHoverPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.algorithmtree.ModuleAlgorithmPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.analysis.AutoAnalysisPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.analysis.FindPossibleReferencesPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.assembler.AssemblerPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.blockmodel.BlockModelServicePlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.bookmark.BookmarkPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.byteviewer.ByteViewerPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.calltree.CallTreePlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.checksums.ComputeChecksumsPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.clear.ClearPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.clipboard.ClipboardPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.codebrowser.CodeBrowserPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.codebrowser.CodeBrowserSelectionPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.codebrowser.hover.DataTypeListingHoverPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.codebrowser.hover.FunctionSignatureListingHoverPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.codebrowser.hover.LabelListingHoverPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.codebrowser.hover.ProgramAddressRelationshipListingHoverPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.codebrowser.hover.ReferenceListingHoverPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.codebrowser.hover.ScalarOperandListingHoverPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.codebrowser.hover.TruncatedTextListingHoverPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.colorizer.ColorizingPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.comments.CommentsPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.commentwindow.CommentWindowPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.console.ConsolePlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.cparser.CParserPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.data.DataPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.datamgr.DataTypeManagerPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.datapreview.DataTypePreviewPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.datawindow.DataWindowPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.decompile.DecompilePlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.diff.ProgramDiffPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.disassembler.AutoTableDisassemblerPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.disassembler.DisassembledViewPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.disassembler.DisassemblerPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.eclipse.EclipseIntegrationPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.equate.EquatePlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.equate.EquateTablePlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.exporter.ExporterPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.fallthrough.FallThroughPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.flowarrow.FlowArrowPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.function.FunctionPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.function.tags.FunctionTagPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.functiongraph.FunctionGraphPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.functionwindow.FunctionWindowPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.gotoquery.GoToServicePlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.graph.GraphDisplayBrokerPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.help.AboutProgramPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.highlight.SetHighlightPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.instructionsearch.InstructionSearchPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.label.LabelMgrPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.marker.MarkerManagerPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.memory.MemoryMapPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.misc.FontAdjustPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.misc.MyProgramChangesDisplayPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.module.AutoRenamePlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.module.ModuleSortPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.navigation.GoToAddressLabelPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.navigation.NavigationHistoryPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.navigation.NextPrevAddressPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.navigation.NextPrevCodeUnitPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.navigation.NextPrevHighlightRangePlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.navigation.NextPrevSelectedRangePlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.navigation.ProgramStartingLocationPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.navigation.ProviderNavigationPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.navigation.locationreferences.LocationReferencesPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.overview.OverviewColorPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.printing.PrintingPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.processors.LanguageProviderPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.processors.ShowInstructionInfoPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.progmgr.MultiTabPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.progmgr.ProgramManagerPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.programtree.ProgramTreeModularizationPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.programtree.ProgramTreePlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.references.OffsetTablePlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.references.ReferencesPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.register.RegisterPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.reloc.RelocationFixupPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.reloc.RelocationTablePlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.resources.ResourceActionsPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.scalartable.ScalarSearchPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.scl.SourceCodeLookupPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.script.GhidraScriptMgrPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.search.DecompilerTextFinderPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.searchtext.SearchTextPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.select.RestoreSelectionPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.select.SelectBlockPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.select.flow.SelectByFlowPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.select.flow.SelectByScopedFlowPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.select.programtree.ProgramTreeSelectionPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.select.qualified.QualifiedSelectionPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.select.reference.SelectRefsPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.sourcefilestable.SourceFilesTablePlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.stackeditor.StackEditorManagerPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.string.StringTablePlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.string.translate.TranslateStringsPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.strings.DefinedStringsPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.strings.EncodedStringsPlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.symboltree.SymbolTreePlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.symtable.SymbolTablePlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.table.TableServicePlugin" />
+            <EXCLUDE CLASS="ghidra.app.plugin.core.vscode.VSCodeIntegrationPlugin" />
+            <EXCLUDE CLASS="ghidra.app.util.bin.format.dwarf.external.DWARFExternalDebugFilesPlugin" />
+            <EXCLUDE CLASS="ghidra.feature.fid.plugin.FidPlugin" />
+            <EXCLUDE CLASS="ghidra.features.base.memsearch.gui.MemorySearchPlugin" />
+            <EXCLUDE CLASS="ghidra.features.base.memsearch.mnemonic.MnemonicSearchPlugin" />
+            <EXCLUDE CLASS="ghidra.features.base.replace.SearchAndReplacePlugin" />
+            <EXCLUDE CLASS="ghidra.graph.program.ProgramGraphPlugin" />
+            <EXCLUDE CLASS="ghidra.macosx.plugins.DyldCacheBuilderPlugin" />
+            <EXCLUDE CLASS="ghidra.macosx.plugins.MachoFileSetBuilderPlugin" />
+            <EXCLUDE CLASS="ghidra.plugin.importer.ImporterPlugin" />
+            <EXCLUDE CLASS="ghidra.plugins.fsbrowser.FileSystemBrowserPlugin" />
+            <EXCLUDE CLASS="ghidra.pyghidra.PyGhidraPlugin" />
+            <EXCLUDE CLASS="pdb.PdbPlugin" />
+        </PACKAGE>
+        <PLUGIN_STATE CLASS="ghidra.feature.vt.gui.plugin.VTPlugin">
+            <XML NAME="ADDRESS_CORRELATORS">
+                <ADDRESS_CORRELATORS>
+                    <CORRELATOR NAME="ghidra.feature.vt.api.correlator.address.ExactMatchAddressCorrelator">
+                        <OPTIONS>
+                            <CATEGORY NAME="ExactMatchAddressCorrelator" />
+                        </OPTIONS>
+                    </CORRELATOR>
+                    <CORRELATOR NAME="ghidra.feature.vt.api.correlator.address.VTHashedFunctionAddressCorrelator">
+                        <OPTIONS>
+                            <CATEGORY NAME="VTHashedFunctionAddressCorrelator" />
+                        </OPTIONS>
+                    </CORRELATOR>
+                    <CORRELATOR NAME="ghidra.features.codecompare.correlator.CodeCompareAddressCorrelator">
+                        <OPTIONS>
+                            <CATEGORY NAME="CodeCompareAddressCorrelator" />
+                        </OPTIONS>
+                    </CORRELATOR>
+                    <CORRELATOR NAME="ghidra.feature.vt.api.correlator.address.LinearAddressCorrelator">
+                        <OPTIONS>
+                            <CATEGORY NAME="LastResortAddressCorrelator" />
+                        </OPTIONS>
+                    </CORRELATOR>
+                </ADDRESS_CORRELATORS>
+            </XML>
+            <STATE NAME="AbstractAddressRangeFilter:ghidra.feature.vt.gui.provider.matchtable.MatchAddressRangeFilter:is.enabled.value.key" TYPE="boolean" VALUE="true" />
+            <STATE NAME="AbstractAddressRangeFilter:ghidra.feature.vt.gui.provider.matchtable.MatchAddressRangeFilter:lower.range.selected.value.key" TYPE="string" VALUE="0" />
+            <ARRAY NAME="AbstractAddressRangeFilter:ghidra.feature.vt.gui.provider.matchtable.MatchAddressRangeFilter:lower.range.values.key" TYPE="string">
+                <A VALUE="0" />
+            </ARRAY>
+            <STATE NAME="AbstractAddressRangeFilter:ghidra.feature.vt.gui.provider.matchtable.MatchAddressRangeFilter:upper.range.selected.value.key" TYPE="string" VALUE="7fffffffffffffff" />
+            <ARRAY NAME="AbstractAddressRangeFilter:ghidra.feature.vt.gui.provider.matchtable.MatchAddressRangeFilter:upper.range.values.key" TYPE="string">
+                <A VALUE="7fffffffffffffff" />
+            </ARRAY>
+            <STATE NAME="AbstractTextFilter:ghidra.feature.vt.gui.util.AllTextFilter" TYPE="string" VALUE="" />
+            <ARRAY NAME="CheckBoxBasedAncillaryFilter:ghidra.feature.vt.gui.provider.markuptable.MarkupStatusFilter" TYPE="string">
+                <A VALUE="Applied (Added):true" />
+                <A VALUE="Applied (Replaced):true" />
+                <A VALUE="Apply Failed:true" />
+                <A VALUE="Conflicting item is applied:true" />
+                <A VALUE="Destination has same value:true" />
+                <A VALUE="Don't Care:true" />
+                <A VALUE="Don't Know:true" />
+                <A VALUE="Rejected:true" />
+                <A VALUE="Unapplied:true" />
+            </ARRAY>
+            <ARRAY NAME="CheckBoxBasedAncillaryFilter:ghidra.feature.vt.gui.provider.markuptable.MarkupTypeFilter" TYPE="string">
+                <A VALUE="Data Type:true" />
+                <A VALUE="EOL Comment:true" />
+                <A VALUE="Function Name:true" />
+                <A VALUE="Function Signature:true" />
+                <A VALUE="Label:true" />
+                <A VALUE="Plate Comment:true" />
+                <A VALUE="Post Comment:true" />
+                <A VALUE="Pre Comment:true" />
+                <A VALUE="Repeatable Comment:true" />
+            </ARRAY>
+            <ARRAY NAME="CheckBoxBasedAncillaryFilter:ghidra.feature.vt.gui.provider.matchtable.AlgorithmFilter" TYPE="string">
+                <A VALUE="BSim Function Matching:true" />
+                <A VALUE="Combined Function and Data Reference Match:true" />
+                <A VALUE="Data Reference Match:true" />
+                <A VALUE="Duplicate Data Match:true" />
+                <A VALUE="Duplicate Exact Symbol Name Match:true" />
+                <A VALUE="Duplicate Function Instructions Match:true" />
+                <A VALUE="Exact Data Match:true" />
+                <A VALUE="Exact Function Bytes Match:true" />
+                <A VALUE="Exact Function Instructions Match:true" />
+                <A VALUE="Exact Function Mnemonics Match:true" />
+                <A VALUE="Exact Symbol Name Match:true" />
+                <A VALUE="Function Reference Match:true" />
+                <A VALUE="Implied Match:true" />
+                <A VALUE="Manual Match:true" />
+                <A VALUE="Similar Data Match:true" />
+                <A VALUE="Similar Symbol Name Match:true" />
+            </ARRAY>
+            <ARRAY NAME="CheckBoxBasedAncillaryFilter:ghidra.feature.vt.gui.provider.matchtable.AssociationStatusFilter" TYPE="string">
+                <A VALUE="Accepted:true" />
+                <A VALUE="Available:true" />
+                <A VALUE="Blocked:true" />
+                <A VALUE="Rejected:true" />
+            </ARRAY>
+            <ARRAY NAME="CheckBoxBasedAncillaryFilter:ghidra.feature.vt.gui.provider.matchtable.MatchTypeFilter" TYPE="string">
+                <A VALUE="Data:true" />
+                <A VALUE="Function:true" />
+            </ARRAY>
+            <ARRAY NAME="CheckBoxBasedAncillaryFilter:ghidra.feature.vt.gui.provider.matchtable.SymbolTypeFilter" TYPE="string">
+                <A VALUE="&lt;No Symbol&gt;:true" />
+                <A VALUE="AI:true" />
+                <A VALUE="Analysis:true" />
+                <A VALUE="Default:true" />
+                <A VALUE="Imported:true" />
+                <A VALUE="User Defined:true" />
+            </ARRAY>
+            <ENUM NAME="FUNCTION_FILTER_SETTINGS" TYPE="enum" CLASS="ghidra.feature.vt.gui.provider.functionassociation.FilterSettings" VALUE="SHOW_ALL" />
+            <STATE NAME="SHOW_COMPARISON_PANEL" TYPE="boolean" VALUE="true" />
+            <STATE NAME="TABLE_SELECTION_STATE" TYPE="string" VALUE="MAINTAIN_SELECTED_ROW_INDEX" />
+            <STATE NAME="ghidra.feature.vt.gui.filters.TagFilter" TYPE="string" VALUE="" />
+            <ARRAY NAME="ghidra.feature.vt.gui.provider.matchtable.ConfidenceFilter" TYPE="string">
+                <A VALUE="-9.999" />
+                <A VALUE="9.999" />
+            </ARRAY>
+            <STATE NAME="ghidra.feature.vt.gui.provider.matchtable.LengthFilter" TYPE="string" VALUE="0" />
+            <ARRAY NAME="ghidra.feature.vt.gui.provider.matchtable.ScoreFilter" TYPE="string">
+                <A VALUE="0.000" />
+                <A VALUE="1.000" />
+            </ARRAY>
+        </PLUGIN_STATE>
+        <PLUGIN_STATE CLASS="ghidra.features.codecompare.plugin.FunctionComparisonPlugin">
+            <SAVE_STATE NAME="UNNAMED" KEY="CodeComparisonStates" TYPE="SaveState">
+                <SAVE_STATE NAME="UNNAMED" KEY="ghidra.features.base.codecompare.listing.ListingCodeComparisonView" TYPE="SaveState" />
+                <SAVE_STATE NAME="UNNAMED" KEY="ghidra.features.codecompare.decompile.DecompilerCodeComparisonView" TYPE="SaveState" />
+                <SAVE_STATE NAME="UNNAMED" KEY="ghidra.features.codecompare.functiongraph.FunctionGraphCodeComparisonView" TYPE="SaveState" />
+            </SAVE_STATE>
+            <SAVE_STATE NAME="UNNAMED" KEY="FunctionComparison" TYPE="SaveState">
+                <STATE NAME="Decompiler ViewORIENTATION" TYPE="boolean" VALUE="true" />
+                <STATE NAME="Function Graph ViewORIENTATION" TYPE="boolean" VALUE="true" />
+                <STATE NAME="Listing ViewORIENTATION" TYPE="boolean" VALUE="true" />
+                <STATE NAME="SCROLL_LOCK" TYPE="boolean" VALUE="true" />
+            </SAVE_STATE>
+        </PLUGIN_STATE>
+        <ROOT_NODE X_POS="13" Y_POS="63" WIDTH="1259" HEIGHT="1004" EX_STATE="0" FOCUSED_OWNER="VTPlugin" FOCUSED_NAME="Version Tracking Matches" FOCUSED_TITLE="Version Tracking Matches">
+            <SPLIT_NODE WIDTH="100" HEIGHT="100" DIVIDER_LOCATION="0" ORIENTATION="VERTICAL">
+                <SPLIT_NODE WIDTH="1259" HEIGHT="922" DIVIDER_LOCATION="662" ORIENTATION="VERTICAL">
+                    <COMPONENT_NODE TOP_INFO="0">
+                        <COMPONENT_INFO NAME="Version Tracking Matches" OWNER="VTPlugin" TITLE="Version Tracking Matches" ACTIVE="true" GROUP="VTResults.MatchesTable" INSTANCE_ID="3750986504395299501" />
+                    </COMPONENT_NODE>
+                    <COMPONENT_NODE TOP_INFO="0">
+                        <COMPONENT_INFO NAME="Version Tracking Markup Items" OWNER="VTPlugin" TITLE="Version Tracking Markup Items" ACTIVE="true" GROUP="VTResults" INSTANCE_ID="3750986504395299502" />
+                        <COMPONENT_INFO NAME="Version Tracking Implied Matches" OWNER="VTPlugin" TITLE="Version Tracking Implied Matches" ACTIVE="true" GROUP="VTResults" INSTANCE_ID="3750986504395299511" />
+                    </COMPONENT_NODE>
+                </SPLIT_NODE>
+                <COMPONENT_NODE TOP_INFO="0">
+                    <COMPONENT_INFO NAME="Version Tracking Functions" OWNER="VTPlugin" TITLE="Version Tracking Functions" ACTIVE="false" GROUP="VTResults" INSTANCE_ID="3750986504395299512" />
+                </COMPONENT_NODE>
+            </SPLIT_NODE>
+        </ROOT_NODE>
+        <PREFERENCES>
+            <PREFERENCE_STATE NAME="HAS_BEEN_SAVED" />
+            <PREFERENCE_STATE NAME="ghidra.feature.vt.gui.provider.matchtable.VTMatchTableModel:Tag:Session ID:Status:Markup Status:Type:Score:Confidence (log10):Votes:# Conflicting:Multiple Source Labels?:Source Namespace:Source Label:Source Label Type:Source Address:Multiple Dest Labels?:Dest Namespace:Dest Label:Dest Label Type:Dest Address:Source Length:Dest Length:Length Delta:Algorithm:">
+                <XML NAME="COLUMN_DATA">
+                    <Table_State>
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$TagTableColumn.Tag" WIDTH="93" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$SessionNumberTableColumn.Session ID" WIDTH="29" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$StatusTableColumn.Status" WIDTH="29" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$AppliedMarkupStatusTableColumn.Markup Status" WIDTH="60" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$MatchTypeTableColumn.Type" WIDTH="70" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$ScoreTableColumn.Score" WIDTH="52" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$ConfidenceScoreTableColumn.Confidence (log10)" WIDTH="52" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$ImpliedMatchCountColumn.Votes" WIDTH="29" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$RelatedMatchCountColumn.# Conflicting" WIDTH="29" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$MultipleSourceLabelsTableColumn.Multiple Source Labels?" WIDTH="29" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$SourceNamespaceTableColumn.Source Namespace" WIDTH="93" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$SourceLabelTableColumn.Source Label" WIDTH="139" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$SourceLabelSourceTypeTableColumn.Source Label Type" WIDTH="100" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$SourceAddressTableColumn.Source Address" WIDTH="70" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$MultipleDestinationLabelsTableColumn.Multiple Dest Labels?" WIDTH="29" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$DestinationNamespaceTableColumn.Dest Namespace" WIDTH="93" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$DestinationLabelTableColumn.Dest Label" WIDTH="140" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$DestinationLabelSourceTypeTableColumn.Dest Label Type" WIDTH="100" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$DestinationAddressTableColumn.Dest Address" WIDTH="70" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$SourceLengthTableColumn.Source Length" WIDTH="34" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$DestinationLengthTableColumn.Dest Length" WIDTH="33" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$LengthDeltaTableColumn.Length Delta" WIDTH="30" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$AlgorithmTableColumn.Algorithm" WIDTH="140" VISIBLE="true" />
+                        <COLUMN NAME="VTMatchSource.ghidra.util.table.field.EOLCommentTableColumn.EOL Comment" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchSource.ghidra.util.table.field.LabelTableColumn.Label" WIDTH="200" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchSource.ghidra.util.table.field.MemoryTypeProgramLocationBasedTableColumn.Mem Type" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchSource.ghidra.util.table.field.MemorySourceProgramLocationBasedTableColumn.Mem Source" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchSource.ghidra.util.table.field.FunctionNameTableColumn.Function Name" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchDestination.ghidra.util.table.field.OffcutReferenceCountToAddressTableColumn.Offcut Reference Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchSource.ghidra.util.table.field.FunctionParameterCountTableColumn.Param Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchDestination.ghidra.util.table.field.AddressTableColumn.Location" WIDTH="200" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchDestination.ghidra.util.table.field.FunctionParameterCountTableColumn.Param Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchDestination.ghidra.util.table.field.MemoryTypeProgramLocationBasedTableColumn.Mem Type" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchDestination.ghidra.util.table.field.NamespaceTableColumn.Namespace" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchSource.ghidra.util.table.field.AddressTableColumn.Location" WIDTH="200" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchDestination.ghidra.util.table.field.CodeUnitTableColumn.Code Unit" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchSource.ghidra.util.table.field.ByteCountProgramLocationBasedTableColumn.Byte Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchDestination.ghidra.util.table.field.LabelTableColumn.Label" WIDTH="200" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchDestination.ghidra.util.table.field.MemorySectionProgramLocationBasedTableColumn.Mem Block" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchDestination.ghidra.util.table.field.ByteCountProgramLocationBasedTableColumn.Byte Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchDestination.ghidra.util.table.field.MemorySourceProgramLocationBasedTableColumn.Mem Source" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchSource.ghidra.util.table.field.MemorySectionProgramLocationBasedTableColumn.Mem Block" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchSource.ghidra.util.table.field.BytesTableColumn.Bytes" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchSource.ghidra.util.table.field.OffcutReferenceCountToAddressTableColumn.Offcut Reference Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchDestination.ghidra.util.table.field.PreviewTableColumn.Preview" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchSource.ghidra.util.table.field.SymbolTypeTableColumn.Symbol Type" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchDestination.ghidra.util.table.field.FunctionNameTableColumn.Function Name" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchDestination.ghidra.util.table.field.SymbolTypeTableColumn.Symbol Type" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchSource.ghidra.util.table.field.PreviewTableColumn.Preview" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchSource.ghidra.util.table.field.ReferenceCountToAddressTableColumn.Reference Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchDestination.ghidra.util.table.field.ReferenceCountToAddressTableColumn.Reference Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchDestination.ghidra.util.table.field.SourceTypeTableColumn.Symbol Source" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchSource.ghidra.util.table.field.CodeUnitTableColumn.Code Unit" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchDestination.ghidra.util.table.field.EOLCommentTableColumn.EOL Comment" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchSource.ghidra.util.table.field.SourceTypeTableColumn.Symbol Source" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchDestination.ghidra.util.table.field.BytesTableColumn.Bytes" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMatchSource.ghidra.util.table.field.NamespaceTableColumn.Namespace" WIDTH="500" VISIBLE="false" />
+                        <TABLE_SORT_STATE>
+                            <COLUMN_SORT_STATE COLUMN_MODEL_INDEX="2" SORT_DIRECTION="ascending" SORT_ORDER="1" />
+                            <COLUMN_SORT_STATE COLUMN_MODEL_INDEX="13" SORT_DIRECTION="ascending" SORT_ORDER="2" />
+                        </TABLE_SORT_STATE>
+                    </Table_State>
+                </XML>
+            </PREFERENCE_STATE>
+            <PREFERENCE_STATE NAME="ghidra.feature.vt.gui.provider.impliedmatches.VTImpliedMatchesTableModel:Source Reference Address:Dest Reference Address:Session ID:Status:Type:Score:Confidence (log10):Votes:# Conflicting:Multiple Source Labels?:Source Label:Source Address:Multiple Dest Labels?:Dest Label:Dest Address:Algorithm:">
+                <XML NAME="COLUMN_DATA">
+                    <Table_State>
+                        <COLUMN NAME="ghidra.feature.vt.gui.provider.impliedmatches.VTImpliedMatchesTableModel$SourceReferenceAddressTableColumn.Source Reference Address" WIDTH="93" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.provider.impliedmatches.VTImpliedMatchesTableModel$DestinationReferenceAddressTableColumn.Dest Reference Address" WIDTH="93" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$SessionNumberTableColumn.Session ID" WIDTH="30" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$StatusTableColumn.Status" WIDTH="48" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$MatchTypeTableColumn.Type" WIDTH="93" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$ScoreTableColumn.Score" WIDTH="73" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$ConfidenceScoreTableColumn.Confidence (log10)" WIDTH="73" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$ImpliedMatchCountColumn.Votes" WIDTH="48" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$RelatedMatchCountColumn.# Conflicting" WIDTH="48" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$MultipleSourceLabelsTableColumn.Multiple Source Labels?" WIDTH="30" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$SourceLabelTableColumn.Source Label" WIDTH="168" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$SourceAddressTableColumn.Source Address" WIDTH="93" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$MultipleDestinationLabelsTableColumn.Multiple Dest Labels?" WIDTH="30" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$DestinationLabelTableColumn.Dest Label" WIDTH="167" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$DestinationAddressTableColumn.Dest Address" WIDTH="93" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.util.AbstractVTMatchTableModel$AlgorithmTableColumn.Algorithm" WIDTH="167" VISIBLE="true" />
+                        <TABLE_SORT_STATE>
+                            <COLUMN_SORT_STATE COLUMN_MODEL_INDEX="3" SORT_DIRECTION="ascending" SORT_ORDER="1" />
+                            <COLUMN_SORT_STATE COLUMN_MODEL_INDEX="11" SORT_DIRECTION="ascending" SORT_ORDER="2" />
+                        </TABLE_SORT_STATE>
+                    </Table_State>
+                </XML>
+            </PREFERENCE_STATE>
+            <PREFERENCE_STATE NAME="ghidra.feature.vt.gui.provider.markuptable.VTMarkupItemsTableModel:Status:Source Address:Dest Address:Displacement:Markup Type:Source Value:Current Dest Value:Original Dest Value:">
+                <XML NAME="COLUMN_DATA">
+                    <Table_State>
+                        <COLUMN NAME="ghidra.feature.vt.gui.provider.markuptable.VTMarkupItemsTableModel$StatusTableColumn.Status" WIDTH="127" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.provider.markuptable.VTMarkupItemsTableModel$SourceAddressTableColumn.Source Address" WIDTH="172" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.provider.markuptable.VTMarkupItemsTableModel$AppliedDestinationAddressTableColumn.Dest Address" WIDTH="172" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.provider.markuptable.VTMarkupItemsTableModel$RelativeDisplacementTableColumn.Displacement" WIDTH="50" VISIBLE="false" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.provider.markuptable.VTMarkupItemsTableModel$MarkupTypeTableColumn.Markup Type" WIDTH="197" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.provider.markuptable.VTMarkupItemsTableModel$SourceValueTableColumn.Source Value" WIDTH="196" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.provider.markuptable.VTMarkupItemsTableModel$DestinationValueTableColumn.Current Dest Value" WIDTH="197" VISIBLE="true" />
+                        <COLUMN NAME="ghidra.feature.vt.gui.provider.markuptable.VTMarkupItemsTableModel$OriginalDestinationValueTableColumn.Original Dest Value" WIDTH="196" VISIBLE="true" />
+                        <COLUMN NAME="VTMarkupItemSource.ghidra.util.table.field.MemoryTypeProgramLocationBasedTableColumn.Mem Type" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemSource.ghidra.util.table.field.AddressTableColumn.Location" WIDTH="200" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemSource.ghidra.util.table.field.BytesTableColumn.Bytes" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemDestination.ghidra.util.table.field.BytesTableColumn.Bytes" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemSource.ghidra.util.table.field.FunctionParameterCountTableColumn.Param Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemDestination.ghidra.util.table.field.SymbolTypeTableColumn.Symbol Type" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemDestination.ghidra.util.table.field.CodeUnitTableColumn.Code Unit" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemSource.ghidra.util.table.field.MemorySourceProgramLocationBasedTableColumn.Mem Source" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemDestination.ghidra.util.table.field.OffcutReferenceCountToAddressTableColumn.Offcut Reference Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemDestination.ghidra.util.table.field.FunctionParameterCountTableColumn.Param Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemDestination.ghidra.util.table.field.MemorySourceProgramLocationBasedTableColumn.Mem Source" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemDestination.ghidra.util.table.field.PreviewTableColumn.Preview" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemSource.ghidra.util.table.field.ReferenceCountToAddressTableColumn.Reference Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemDestination.ghidra.util.table.field.NamespaceTableColumn.Namespace" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemSource.ghidra.util.table.field.EOLCommentTableColumn.EOL Comment" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemSource.ghidra.util.table.field.ByteCountProgramLocationBasedTableColumn.Byte Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemDestination.ghidra.util.table.field.AddressTableColumn.Location" WIDTH="200" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemSource.ghidra.util.table.field.MemorySectionProgramLocationBasedTableColumn.Mem Block" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemDestination.ghidra.util.table.field.MemoryTypeProgramLocationBasedTableColumn.Mem Type" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemSource.ghidra.util.table.field.SourceTypeTableColumn.Symbol Source" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemDestination.ghidra.util.table.field.LabelTableColumn.Label" WIDTH="200" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemSource.ghidra.util.table.field.PreviewTableColumn.Preview" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemSource.ghidra.util.table.field.FunctionNameTableColumn.Function Name" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemDestination.ghidra.util.table.field.ByteCountProgramLocationBasedTableColumn.Byte Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemSource.ghidra.util.table.field.SymbolTypeTableColumn.Symbol Type" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemSource.ghidra.util.table.field.OffcutReferenceCountToAddressTableColumn.Offcut Reference Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemDestination.ghidra.util.table.field.ReferenceCountToAddressTableColumn.Reference Count" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemDestination.ghidra.util.table.field.EOLCommentTableColumn.EOL Comment" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemDestination.ghidra.util.table.field.FunctionNameTableColumn.Function Name" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemSource.ghidra.util.table.field.NamespaceTableColumn.Namespace" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemSource.ghidra.util.table.field.LabelTableColumn.Label" WIDTH="200" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemDestination.ghidra.util.table.field.MemorySectionProgramLocationBasedTableColumn.Mem Block" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemDestination.ghidra.util.table.field.SourceTypeTableColumn.Symbol Source" WIDTH="500" VISIBLE="false" />
+                        <COLUMN NAME="VTMarkupItemSource.ghidra.util.table.field.CodeUnitTableColumn.Code Unit" WIDTH="500" VISIBLE="false" />
+                        <TABLE_SORT_STATE>
+                            <COLUMN_SORT_STATE COLUMN_MODEL_INDEX="1" SORT_DIRECTION="ascending" SORT_ORDER="1" />
+                        </TABLE_SORT_STATE>
+                    </Table_State>
+                </XML>
+            </PREFERENCE_STATE>
+        </PREFERENCES>
+        <EXTENSIONS />
+    </TOOL>
+</TOOL_CONFIG>

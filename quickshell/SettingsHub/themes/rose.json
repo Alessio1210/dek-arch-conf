@@ -1,0 +1,17 @@
+{
+  "name": "Original \u00b7 Rot",
+  "colors": {
+    "surface": "#f20d1014",
+    "raised": "#191e25",
+    "hover": "#282f38",
+    "line": "#29323b",
+    "text": "#eee9e2",
+    "muted": "#8d99a7",
+    "accent": "#d47b76",
+    "green": "#a3c9b2",
+    "blue": "#a8c7df"
+  },
+  "desktop": true,
+  "restore_original": true,
+  "wallpaper": "~/Pictures/Wallpapers/wallpaper-red.png"
+}

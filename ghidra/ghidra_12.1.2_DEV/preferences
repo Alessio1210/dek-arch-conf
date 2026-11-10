@@ -1,0 +1,26 @@
+#User Preferences
+#Sun Sep 06 17:11:08 CEST 2026
+G_FILE_CHOOSER.HEIGHT.Select\ File\ to\ Import=600
+G_FILE_CHOOSER.HEIGHT.Select\ a\ Ghidra\ Project\ Directory=600
+G_FILE_CHOOSER.VIEW_STYLE.Select\ File\ to\ Import=SimpleView
+G_FILE_CHOOSER.VIEW_STYLE.Select\ a\ Ghidra\ Project\ Directory=SimpleView
+G_FILE_CHOOSER.WIDTH.Select\ File\ to\ Import=800
+G_FILE_CHOOSER.WIDTH.Select\ a\ Ghidra\ Project\ Directory=800
+GhidraShowWhatsNew=false
+IMPORTER_DIALOG_LAST_FOLDER=/
+LAST_USED_OPTIONS_CONFIG=Standard Defaults
+LastImportFile=/home/alessio/projects/configs/335i e92 n54/WBAWC71040E061411_IJE0S_mapswitch.bin
+LastOpenedProject=/home/alessio/projects/configs/335i e92 n54/335i n54 map
+OPEN_PROGRAM_DIALOG.HEIGHT=559
+OPEN_PROGRAM_DIALOG.SHOW_HISTORY=false
+OPEN_PROGRAM_DIALOG.WIDTH_NO_HISTORY=350
+ProjectDirectory=/home/alessio/projects/configs/335i e92 n54/
+RECENT_0=/home/alessio/projects/configs/335i e92 n54
+RecentProjects=/home/alessio/projects/configs/335i e92 n54/335i n54 map
+SHOW.HELP.NAVIGATION.AID=true
+SHOW_TIPS=false
+TIP_INDEX=2
+Theme=Class\:generic.theme.builtin.FlatLightTheme
+USER_AGREEMENT=ACCEPT
+VersionTrackingShowHelp=No
+ViewedProjects=

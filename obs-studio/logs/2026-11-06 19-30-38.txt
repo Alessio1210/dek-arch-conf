@@ -1,0 +1,271 @@
+19:30:38.617: Platform: Wayland
+19:30:38.617: CPU Name: AMD Ryzen 5 5600 6-Core Processor
+19:30:38.618: CPU Speed: 1750.500MHz
+19:30:38.618: Physical Cores: 6, Logical Cores: 12
+19:30:38.618: Physical Memory: 48091MB Total, 32279MB Free
+19:30:38.618: Kernel Version: Linux 7.2.11-arch1-1
+19:30:38.618: Distribution: "Arch Linux" Unknown
+19:30:38.618: Desktop Environment: Hyprland (Hyprland)
+19:30:38.618: Session Type: wayland
+19:30:38.619: Current Date/Time: 2026-11-06, 07:30:38 PM
+19:30:38.619: Browser Hardware Acceleration: true
+19:30:38.619: Qt Version: 6.12.0 (runtime), 6.11.1 (compiled)
+19:30:38.619: Portable mode: false
+19:30:38.643: OBS 32.2.2 (linux)
+19:30:38.643: ---------------------------------
+19:30:38.643: ---------------------------------
+19:30:38.643: audio settings reset:
+19:30:38.643: 	samples per sec: 48000
+19:30:38.643: 	speakers:        2
+19:30:38.643: 	max buffering:   960 milliseconds
+19:30:38.643: 	buffering type:  dynamically increasing
+19:30:38.644: ---------------------------------
+19:30:38.644: Initializing OpenGL...
+19:30:38.644: Using EGL/Wayland
+19:30:38.699: Initialized EGL 1.5
+19:30:38.759: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2
+19:30:38.759: OpenGL loaded successfully, version 3.3.0 NVIDIA 615.78.08, shading language 3.30 NVIDIA via Cg compiler
+19:30:38.778: ---------------------------------
+19:30:38.778: video settings reset:
+19:30:38.778: 	base resolution:   1920x1080
+19:30:38.778: 	output resolution: 1920x1080
+19:30:38.778: 	downscale filter:  Bicubic
+19:30:38.778: 	fps:               60/1
+19:30:38.778: 	format:            NV12
+19:30:38.778: 	YUV mode:          Rec. 709/Partial
+19:30:38.778: NV12 texture support enabled
+19:30:38.778: P010 texture support not available
+19:30:38.779: Audio monitoring device:
+19:30:38.779: 	name: Default
+19:30:38.779: 	id: default
+19:30:38.807: ---------------------------------
+19:30:38.808: Failed to load 'en-US' text for module: 'decklink-captions.so'
+19:30:38.809: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+19:30:38.810: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+19:30:38.810: Failed to initialize module 'decklink.so'
+19:30:38.900: [pipewire] Available capture sources:
+19:30:38.900: [pipewire]     - Monitor source
+19:30:38.900: [pipewire]     - Window source
+19:30:39.192: VAAPI: API version 1.24
+19:30:39.256: FFmpeg VAAPI H264 encoding not supported
+19:30:39.506: FFmpeg VAAPI AV1 encoding not supported
+19:30:39.750: FFmpeg VAAPI HEVC encoding not supported
+19:30:39.948: [obs-nvenc] NVENC version: 13.1 (compiled) / 13.1 (driver), CUDA driver version: 13.40, AV1 supported: false
+19:30:40.681: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.7.4 | RPC Version: 1)
+19:30:40.681: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.11.1 | Qt version (run-time): 6.12.0
+19:30:40.681: [obs-websocket] [obs_module_load] Linked ASIO Version: 103802
+19:30:40.685: [obs-websocket] [obs_module_load] Module loaded.
+19:30:40.687: ---------------------------------
+19:30:40.687:   Loaded Modules:
+19:30:40.687:     text-freetype2.so
+19:30:40.687:     rtmp-services.so
+19:30:40.687:     obs-x264.so
+19:30:40.687:     obs-websocket.so
+19:30:40.687:     obs-webrtc.so
+19:30:40.687:     obs-vst.so
+19:30:40.687:     obs-transitions.so
+19:30:40.687:     obs-qsv11.so
+19:30:40.687:     obs-outputs.so
+19:30:40.687:     obs-nvenc.so
+19:30:40.687:     obs-libfdk.so
+19:30:40.687:     obs-filters.so
+19:30:40.687:     obs-ffmpeg.so
+19:30:40.687:     linux-v4l2.so
+19:30:40.687:     linux-pulseaudio.so
+19:30:40.687:     linux-pipewire.so
+19:30:40.687:     linux-jack.so
+19:30:40.687:     linux-capture.so
+19:30:40.687:     linux-alsa.so
+19:30:40.687:     image-source.so
+19:30:40.687:     frontend-tools.so
+19:30:40.687:     decklink-output-ui.so
+19:30:40.687:     decklink-captions.so
+19:30:40.687: ---------------------------------
+19:30:40.687: ---------------------------------
+19:30:40.688: Available Encoders:
+19:30:40.688:   Video Encoders:
+19:30:40.688: 	- ffmpeg_svt_av1 (SVT-AV1)
+19:30:40.688: 	- ffmpeg_aom_av1 (AOM AV1)
+19:30:40.688: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+19:30:40.688: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+19:30:40.688: 	- obs_x264 (x264)
+19:30:40.688:   Audio Encoders:
+19:30:40.688: 	- ffmpeg_aac (FFmpeg AAC)
+19:30:40.688: 	- ffmpeg_opus (FFmpeg Opus)
+19:30:40.688: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+19:30:40.688: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+19:30:40.688: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+19:30:40.688: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+19:30:40.688: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+19:30:40.688: 	- libfdk_aac (libfdk AAC)
+19:30:40.688: ==== Startup complete ===============================================
+19:30:40.714: Failed to register with host portal QDBusError("org.freedesktop.portal.Error.Failed", "Could not register app ID: Connection already associated with an application ID")
+19:30:40.714: All scene data cleared
+19:30:40.714: ------------------------------------------------
+19:30:40.719: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+19:30:40.719: Deduplication logic is being applied to all monitored sources.
+19:30:40.719: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.10) 15.0.0'
+19:30:40.719: pulse-input: Audio format: s24le, 48000 Hz, 2 channels
+19:30:40.719: pulse-input: Sample format s24le not supported by OBS,using float32le instead for recording
+19:30:40.719: pulse-input: Started recording from 'alsa_output.usb-Apple__Inc._EarPods_KN72754W29-00.analog-stereo.monitor' (default)
+19:30:40.719: [Loaded global audio device]: 'Desktop Audio'
+19:30:40.720: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.10) 15.0.0'
+19:30:40.720: pulse-input: Audio format: s24le, 48000 Hz, 1 channels
+19:30:40.720: pulse-input: Sample format s24le not supported by OBS,using float32le instead for recording
+19:30:40.720: pulse-input: Started recording from 'alsa_input.usb-Apple__Inc._EarPods_KN72754W29-00.mono-fallback' (default)
+19:30:40.720: [Loaded global audio device]: 'Mic/Aux'
+19:30:40.720: PipeWire initialized
+19:30:40.722: Switched to scene 'face'
+19:30:40.722: ------------------------------------------------
+19:30:40.722: Loaded scenes:
+19:30:40.722: - scene 'Scene':
+19:30:40.722:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+19:30:40.722: - scene 'face':
+19:30:40.722:     - source: 'Video Capture Device (PipeWire) (BETA)' (pipewire-camera-source)
+19:30:40.722: ------------------------------------------------
+19:30:40.750: [camera-portal] Successfully accessed cameras
+19:30:40.750: [pipewire] Screencast session created
+19:30:40.790: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+19:30:40.790: Deduplication logic is being applied to all monitored sources.
+19:30:40.817: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x556018483ad0 but 0x0 is focused
+19:30:40.817: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x556018483ad0 but 0x0 is focused
+19:30:40.843: [pipewire] Server version: 1.6.10
+19:30:40.843: [pipewire] Library version: 1.6.10
+19:30:40.843: [pipewire] Header version: 1.6.8
+19:30:40.843: [pipewire] Created registry 0x55601a941de0
+19:30:40.844: [camera-portal] Found device Dummy-Driver
+19:30:40.844: [camera-portal] Found device Freewheel-Driver
+19:30:40.844: [camera-portal] Found device Midi-Bridge
+19:30:40.844: [camera-portal] Found device bluez_midi.server
+19:30:40.844: [camera-portal] Found device alsa_output.pci-0000_05_00.1.hdmi-stereo
+19:30:40.844: [camera-portal] Found device alsa_input.usb-SunplusIT_Inc_FHD_Camera_Microphone_01.00.00-02.analog-stereo
+19:30:40.844: [camera-portal] Found device alsa_output.pci-0000_07_00.4.pro-output-0
+19:30:40.844: [camera-portal] Found device alsa_input.pci-0000_07_00.4.pro-input-0
+19:30:40.844: [camera-portal] Found device alsa_input.pci-0000_07_00.4.pro-input-2
+19:30:40.844: [camera-portal] Found device v4l2_input.pci-0000_07_00.3-usb-0_3_1.0
+19:30:40.844: [camera-portal] streaming camera 'v4l2_input.pci-0000_07_00.3-usb-0_3_1.0'
+19:30:40.844: [pipewire] Created stream 0x7f1c2800df10
+19:30:40.844: [pipewire] Stream 0x7f1c2800df10 state: "connecting" (error: none)
+19:30:40.844: [pipewire] Playing stream 0x7f1c2800df10
+19:30:40.844: [camera-portal] Found device alsa_output.usb-Apple__Inc._EarPods_KN72754W29-00.analog-stereo
+19:30:40.844: [camera-portal] Found device alsa_input.usb-Apple__Inc._EarPods_KN72754W29-00.mono-fallback
+19:30:40.844: [camera-portal] Found device OBS
+19:30:40.844: [camera-portal] Found device OBS
+19:30:40.845: [pipewire] Stream 0x7f1c2800df10 state: "paused" (error: none)
+19:30:40.845: [camera-portal] Found device obs
+19:30:40.847: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x556018615250 but 0x0 is focused
+19:30:41.063: [pipewire] Negotiated format:
+19:30:41.063: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+19:30:41.063: [pipewire]     Size: 640x480
+19:30:41.063: [pipewire]     Framerate: 30/1
+19:30:41.064: [pipewire] Stream 0x7f1c2800df10 state: "streaming" (error: none)
+19:30:41.332: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+19:30:41.332: 
+19:30:41.636: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x556018483ad0 but 0x0 is focused
+19:30:41.636: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x556018483ad0 but 0x0 is focused
+19:30:41.638: [pipewire] Asking for monitor and window
+19:30:41.639: [camera-portal] Found device xdg-desktop-portal-hyprland
+19:30:41.639: [pipewire] Error id:18 seq:157 res:-2 (No such file or directory): enum params id:16 (Spa:Enum:ParamId:ProcessLatency) failed
+19:30:41.639: [pipewire] source selected, setting up screencast
+19:30:41.642: [pipewire] Server version: 1.6.10
+19:30:41.642: [pipewire] Library version: 1.6.10
+19:30:41.642: [pipewire] Header version: 1.6.8
+19:30:41.642: [pipewire] Created stream 0x55601a53df60
+19:30:41.642: [pipewire] Stream 0x55601a53df60 state: "connecting" (error: none)
+19:30:41.642: [pipewire] Playing stream 0x55601a53df60
+19:30:41.642: [pipewire] Stream 0x55601a53df60 state: "paused" (error: none)
+19:30:41.642: [camera-portal] Found device obs
+19:30:41.684: [pipewire] Negotiated format:
+19:30:41.684: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+19:30:41.684: [pipewire]     Modifier: 0x0
+19:30:41.684: [pipewire]     Size: 2560x1080
+19:30:41.684: [pipewire]     Framerate: 0/1
+19:30:41.685: [pipewire] Negotiated format:
+19:30:41.685: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+19:30:41.685: [pipewire]     Modifier: 0x300000000e08014
+19:30:41.685: [pipewire]     Size: 2560x1080
+19:30:41.685: [pipewire]     Framerate: 0/1
+19:30:41.686: [pipewire] Stream 0x55601a53df60 state: "streaming" (error: none)
+19:30:58.170: ==== Shutting down ==================================================
+19:30:58.224: pulse-input: Stopped recording from 'alsa_output.usb-Apple__Inc._EarPods_KN72754W29-00.analog-stereo.monitor'
+19:30:58.224: pulse-input: Got 698 packets with 837600 frames
+19:30:58.224: Deduplication logic stopped.
+19:30:58.224: pulse-input: Stopped recording from 'alsa_input.usb-Apple__Inc._EarPods_KN72754W29-00.mono-fallback'
+19:30:58.224: pulse-input: Got 694 packets with 832800 frames
+19:30:58.224: [pipewire] Stream 0x55601a53df60 state: "paused" (error: none)
+19:30:58.224: [pipewire] Stream 0x55601a53df60 state: "unconnected" (error: none)
+19:30:58.226: [pipewire-camera] Removed device xdg-desktop-portal-hyprland
+19:30:58.226: [pipewire-camera] Removed device OBS
+19:30:58.227: [pipewire-camera] Removed device obs
+19:30:58.238: [pipewire] Stream 0x7f1c2800df10 state: "paused" (error: none)
+19:30:58.238: [pipewire] Stream 0x7f1c2800df10 state: "unconnected" (error: none)
+19:30:58.271: All scene data cleared
+19:30:58.271: ------------------------------------------------
+19:30:58.273: Tried to call obs_frontend_remove_event_callback with no callbacks!
+19:30:58.314: [obs-websocket] [obs_module_unload] Shutting down...
+19:30:58.314: Tried to call obs_frontend_remove_event_callback with no callbacks!
+19:30:58.314: [obs-websocket] [obs_module_unload] Finished shutting down.
+19:30:58.314: [pipewire] Error id:0 seq:201 res:-2 (No such file or directory): unknown resource 7 op:7
+19:30:58.320: [Scripting] Total detached callbacks: 0
+19:30:58.320: Freeing OBS context data
+19:30:58.336: == Profiler Results =============================
+19:30:58.336: run_program_init: 2160.98 ms
+19:30:58.336:  ┣OBSApp::AppInit: 15.399 ms
+19:30:58.336:  ┃ ┗OBSApp::InitLocale: 0.457 ms
+19:30:58.336:  ┗OBSApp::OBSInit: 2130.15 ms
+19:30:58.336:    ┣obs_startup: 1.282 ms
+19:30:58.336:    ┗OBSBasic::OBSInit: 2104.84 ms
+19:30:58.336:      ┣OBSBasic::InitBasicConfig: 0.548 ms
+19:30:58.336:      ┣OBSBasic::ResetAudio: 0.231 ms
+19:30:58.336:      ┣OBSBasic::ResetVideo: 135.024 ms
+19:30:58.336:      ┃ ┗obs_init_graphics: 134.607 ms
+19:30:58.336:      ┃   ┗shader compilation: 18.535 ms
+19:30:58.336:      ┣OBSBasic::InitOBSCallbacks: 0.002 ms
+19:30:58.336:      ┣OBSBasic::InitHotkeys: 0.018 ms
+19:30:58.336:      ┣obs_load_all_modules2: 1880.35 ms
+19:30:58.336:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+19:30:58.336:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+19:30:58.336:      ┃ ┣obs_init_module(decklink.so): 0.038 ms
+19:30:58.336:      ┃ ┣obs_init_module(frontend-tools.so): 75.385 ms
+19:30:58.336:      ┃ ┣obs_init_module(image-source.so): 0.004 ms
+19:30:58.336:      ┃ ┣obs_init_module(linux-alsa.so): 0 ms
+19:30:58.336:      ┃ ┣obs_init_module(linux-capture.so): 0.001 ms
+19:30:58.336:      ┃ ┣obs_init_module(linux-jack.so): 0.001 ms
+19:30:58.336:      ┃ ┣obs_init_module(linux-pipewire.so): 3.34 ms
+19:30:58.336:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.001 ms
+19:30:58.336:      ┃ ┣obs_init_module(linux-v4l2.so): 4.135 ms
+19:30:58.336:      ┃ ┣obs_init_module(obs-ffmpeg.so): 828.81 ms
+19:30:58.336:      ┃ ┣obs_init_module(obs-filters.so): 0.025 ms
+19:30:58.336:      ┃ ┣obs_init_module(obs-libfdk.so): 0.002 ms
+19:30:58.336:      ┃ ┣obs_init_module(obs-nvenc.so): 195.246 ms
+19:30:58.336:      ┃ ┃ ┗nvenc_check: 195.237 ms
+19:30:58.336:      ┃ ┣obs_init_module(obs-outputs.so): 0.005 ms
+19:30:58.336:      ┃ ┣obs_init_module(obs-qsv11.so): 714.869 ms
+19:30:58.336:      ┃ ┣obs_init_module(obs-transitions.so): 0.012 ms
+19:30:58.336:      ┃ ┣obs_init_module(obs-vst.so): 0.006 ms
+19:30:58.336:      ┃ ┣obs_init_module(obs-webrtc.so): 0.004 ms
+19:30:58.336:      ┃ ┣obs_init_module(obs-websocket.so): 3.837 ms
+19:30:58.336:      ┃ ┣obs_init_module(obs-x264.so): 0.001 ms
+19:30:58.336:      ┃ ┣obs_init_module(rtmp-services.so): 0.214 ms
+19:30:58.336:      ┃ ┗obs_init_module(text-freetype2.so): 0.006 ms
+19:30:58.336:      ┣OBSBasic::InitService: 0.605 ms
+19:30:58.336:      ┣OBSBasic::ResetOutputs: 0.108 ms
+19:30:58.336:      ┣OBSBasic::CreateHotkeys: 0.021 ms
+19:30:58.336:      ┣OBSBasic::InitPrimitives: 0.076 ms
+19:30:58.336:      ┗OBSBasic::Load: 33.724 ms
+19:30:58.336: obs_hotkey_thread(25 ms): min=0 ms, median=0 ms, max=0.001 ms, 99th percentile=0 ms, 100% below 25 ms
+19:30:58.336: audio_thread(Audio): min=0.003 ms, median=0.016 ms, max=0.209 ms, 99th percentile=0.041 ms
+19:30:58.336: obs_graphics_thread(16.6667 ms): min=0.082 ms, median=0.275 ms, max=703.352 ms, 99th percentile=2.724 ms, 99.5556% below 16.667 ms
+19:30:58.336:  ┣tick_sources: min=0 ms, median=0.003 ms, max=61.227 ms, 99th percentile=0.004 ms
+19:30:58.336:  ┣output_frame: min=0.039 ms, median=0.077 ms, max=2.428 ms, 99th percentile=0.208 ms
+19:30:58.336:  ┃ ┗gs_context(video->graphics): min=0.038 ms, median=0.077 ms, max=2.428 ms, 99th percentile=0.207 ms
+19:30:58.336:  ┃   ┣render_video: min=0.017 ms, median=0.045 ms, max=1.513 ms, 99th percentile=0.165 ms
+19:30:58.336:  ┃   ┃ ┗render_main_texture: min=0.014 ms, median=0.04 ms, max=1.506 ms, 99th percentile=0.159 ms
+19:30:58.336:  ┃   ┗gs_flush: min=0.003 ms, median=0.007 ms, max=2.353 ms, 99th percentile=0.017 ms
+19:30:58.336:  ┗render_displays: min=0.015 ms, median=0.142 ms, max=34.362 ms, 99th percentile=0.516 ms
+19:30:58.336: =================================================
+19:30:58.336: == Profiler Time Between Calls ==================
+19:30:58.336: obs_hotkey_thread(25 ms): min=25.012 ms, median=25.057 ms, max=25.279 ms, 100% within ±2% of 25 ms (0% lower, 0% higher)
+19:30:58.336: obs_graphics_thread(16.6667 ms): min=4.009 ms, median=16.667 ms, max=703.359 ms, 99.1103% within ±2% of 16.667 ms (0.44484% lower, 0.44484% higher)
+19:30:58.336: =================================================
+19:30:58.337: Number of memory leaks: 0

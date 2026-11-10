@@ -1,0 +1,31 @@
+# Soft, balanced dark palette based on Nord.
+background = #140d0d
+foreground = #ebe5e5
+cursor-color = #c7aeae
+selection-background = #2e1f1f
+selection-foreground = #ebe5e5
+
+# black
+palette = 0=#140d0d
+palette = 8=#4c3333
+# red
+palette = 1=#df9291
+palette = 9=#f0a3a8
+# green
+palette = 2=#c5aba0
+palette = 10=#a9d9bd
+# yellow
+palette = 3=#d9c898
+palette = 11=#e9d8ac
+# blue
+palette = 4=#cbc6a9
+palette = 12=#b0d1df
+# purple
+palette = 5=#b9a4cf
+palette = 13=#cbbadd
+# aqua
+palette = 6=#c7aeae
+palette = 14=#c2e6d6
+# white
+palette = 7=#ebe5e5
+palette = 15=#f3f6f2

@@ -1,0 +1,14 @@
+{
+  "name": "Carousel",
+  "layout": "carousel",
+  "background": "#38091015",
+  "surface": "#00000000",
+  "text": "#f4f4f5",
+  "muted": "#a3acb7",
+  "accent": "#db747e",
+  "radius": 16,
+  "card_width": 160,
+  "card_height": 500,
+  "spacing": 5,
+  "animation_ms": 180
+}

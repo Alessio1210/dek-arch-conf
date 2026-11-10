@@ -1,0 +1,14 @@
+{
+  "name": "Graphite",
+  "colors": {
+    "surface": "#f20d1014",
+    "raised": "#191e25",
+    "hover": "#282f38",
+    "line": "#29323b",
+    "text": "#f1f5f9",
+    "muted": "#94a3b8",
+    "accent": "#cbd5e1",
+    "green": "#a3c9b2",
+    "blue": "#a8c7df"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Mist Forest",
+  "desktop": true,
+  "wallpaper": "~/Pictures/Wallpapers/mist-forest.png",
+  "description": "Nebelwald \u00b7 Salbeigr\u00fcn \u00b7 komplettes Desktop-Theme",
+  "colors": {
+    "surface": "#ed0c1715",
+    "raised": "#0c1715",
+    "hover": "#243c33",
+    "line": "#3d5c4e",
+    "text": "#e1eae2",
+    "muted": "#9eafa4",
+    "accent": "#a4cbb1",
+    "green": "#91c4a4",
+    "blue": "#9ebcc6",
+    "danger": "#df9291"
+  }
+}

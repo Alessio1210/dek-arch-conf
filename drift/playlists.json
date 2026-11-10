@@ -1,0 +1,46 @@
+{
+  "playlists": {
+    "favs": [
+      {
+        "id": "VkOPprPC1w8",
+        "title": "music for people who want to create generational wealth",
+        "artist": "Productivity FM",
+        "artists": [],
+        "album": null,
+        "duration": 4803
+      }
+    ],
+    "music": [
+      {
+        "id": "s3KhpuevqGg",
+        "title": "DSCHUNGEL",
+        "artist": "reezy",
+        "artists": [
+          "reezy"
+        ],
+        "album": "DSCHUNGEL",
+        "duration": 197
+      },
+      {
+        "id": "91dcqnQUWJ4",
+        "title": "Ich hör nicht auf",
+        "artist": "Ufo361",
+        "artists": [
+          "Ufo361"
+        ],
+        "album": "Ich bin 2 Berliner",
+        "duration": 172
+      }
+    ],
+    "productivity": [
+      {
+        "id": "VkOPprPC1w8",
+        "title": "music for people who want to create generational wealth",
+        "artist": "Productivity FM",
+        "artists": [],
+        "album": null,
+        "duration": 4803
+      }
+    ]
+  }
+}

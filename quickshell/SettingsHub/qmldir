@@ -1,0 +1,8 @@
+singleton Theme 1.0 Theme.qml
+singleton BluetoothState 1.0 BluetoothState.qml
+SettingsWindow 1.0 SettingsWindow.qml
+QuickActions 1.0 QuickActions.qml
+SettingsHub 1.0 SettingsHub.qml
+PerspectivePanel 1.0 PerspectivePanel.qml
+Slider 1.0 Slider.qml
+HubButton 1.0 HubButton.qml

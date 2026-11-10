@@ -1,0 +1,189 @@
+# Sitzungsdaten und private App-Daten
+/google-chrome/
+/chromium/
+/discord/
+/gh/hosts.yml
+# Installierte Programme, Laufzeitdateien und Caches
+/Codex/component_crx_cache/
+/Codex/WasmTtsEngine/
+/Codex/provider-runtimes/
+/OpenBot/provider-runtimes/
+/heroic/tools/
+/Code/CachedExtensionVSIXs/
+/Code/Cache/
+/Code/CachedData/
+/Code/User/globalStorage/
+/Code/User/workspaceStorage/
+/VSCodium/CachedExtensionVSIXs/
+/VSCodium/Cache/
+/VSCodium/CachedData/
+/VSCodium/User/globalStorage/
+/VSCodium/User/workspaceStorage/
+# Editor- und OpenBot-Sitzungsdaten
+/Code/Cookies*
+/Code/History
+/Code/Local Storage/
+/Code/Session Storage/
+/Code/Network/
+/Code/Web Data
+/Code/Login Data*
+/VSCodium/Cookies*
+/VSCodium/History
+/VSCodium/Local Storage/
+/VSCodium/Session Storage/
+/VSCodium/Network/
+/VSCodium/Web Data
+/VSCodium/Login Data*
+/OpenBot/Code Cache/
+/OpenBot/DIPS*
+/OpenBot/DawnGraphiteCache/
+/OpenBot/DawnWebGPUCache/
+/OpenBot/GPUCache/
+/OpenBot/IndexedDB/
+/OpenBot/Local Storage/
+/OpenBot/Partitions/
+/OpenBot/Session Storage/
+/OpenBot/WebStorage/
+/OpenBot/Singleton*
+/OpenBot/cua-driver/cua-driver
+/OpenBot/logs/
+/OpenBot/provider-handoffs/
+/OpenBot/openbot-central-auth-v1.bin
+/OpenBot/openbot-*-state-v1.json
+/OpenBot/openbot-resource-summary-v1.json
+/OpenBot/openbot-run-marker-v1.json
+/OpenBot/openbot.db-*
+/OpenBot/startup-history.json
+/.android/cache/
+/.android/debug.keystore*
+# Weitere App-Profile und Laufzeitdaten
+/Codex/Default/
+/Codex/Singleton*
+/Codex/Local State
+/Codex/Network Persistent State
+/Codex/Preferences
+/Codex/TransportSecurity
+/Codex/Trust Tokens*
+/Codex/GPUPersistentCache/
+/Codex/extensions_crx_cache/
+/Codex/OptimizationHints/
+/Codex/CertificateRevocation/
+/Codex/PKIMetadata/
+/Codex/FirstPartySetsPreloaded/
+/Codex/OnDeviceHeadSuggestModel/
+/Codex/Subresource Filter/
+/Codex/SafetyTips/
+/Codex/Crowd Deny/
+/Codex/CaptchaProviders/
+/Codex/ActorSafetyLists/
+/Codex/AmountExtractionHeuristicRegexes/
+/Codex/FileTypePolicies/
+/Codex/MEIPreload/
+/Codex/segmentation_platform/
+/Codex/sentry/
+/Codex/statsig-state.json*
+/Codex/browser-sidebar-page-states.json
+/Code/Code Cache/
+/Code/GPUCache/
+/Code/DawnGraphiteCache/
+/Code/DawnWebGPUCache/
+/Code/Shared Dictionary/
+/Code/SharedStorage*
+/Code/Local State
+/Code/Trust Tokens*
+/Code/TransportSecurity
+/Code/Network Persistent State
+/Code/CachedProfilesData/
+/Code/logs/
+/Code/User/History/
+/VSCodium/Code Cache/
+/VSCodium/GPUCache/
+/VSCodium/DawnGraphiteCache/
+/VSCodium/DawnWebGPUCache/
+/VSCodium/Shared Dictionary/
+/VSCodium/SharedStorage*
+/VSCodium/Local State
+/VSCodium/Trust Tokens*
+/VSCodium/TransportSecurity
+/VSCodium/Network Persistent State
+/VSCodium/CachedProfilesData/
+/VSCodium/logs/
+/VSCodium/User/History/
+/OpenBot/Cache/
+/OpenBot/Cookies*
+/OpenBot/GPUPersistentCache/
+/OpenBot/Crashpad/
+/OpenBot/Local State
+/OpenBot/Network Persistent State
+/OpenBot/Preferences
+/OpenBot/Shared Dictionary/
+/OpenBot/TransportSecurity
+/OpenBot/Trust Tokens*
+/OpenBot/declarative_performance_observer.db*
+/OpenBot/openbot.db*
+/OpenBot/secret-storage.key
+/OpenBot/openbot-analytics-*.json
+/OpenBot/openbot-error-reports-v1.json
+/OpenBot/openbot-push-notifications-v1.json
+/OpenBot/openbot-team-server-v2.json
+/OpenBot/openbot-remote-servers-v1.json
+/OpenBot/openbot-approval-automation-v3.json
+/OpenBot/openbot-sidebar-pins-v1.json
+/OpenBot/openbot-setup-v2.json
+/OpenBot/openbot-custom-providers-v1.json
+/OpenBot/openbot-provider-cli-app-version-v1.json
+/OpenBot/provider-state/
+/OpenBot/provider-toolsets/
+# Zusätzliche Editor- und App-Laufzeitdaten
+/Code/Service Worker/
+/Code/WebStorage/
+/VSCodium/Service Worker/
+/VSCodium/WebStorage/
+/Codex/first_party_sets.db*
+/Codex/WidevineCdm/
+/heroic/Cache/
+/heroic/Local Storage/
+/heroic/Partitions/
+/heroic/Service Worker/
+/heroic/WebStorage/
+/github-copilot/auth.db*
+/go/telemetry/local/
+/ghidra/*/application.log
+/ghidra/*/script.log
+/obsidian/*.asar
+# Heroic-Sitzungen, Store-Metadaten und Caches
+/heroic/Code Cache/
+/heroic/Cookies*
+/heroic/DawnGraphiteCache/
+/heroic/DawnWebGPUCache/
+/heroic/GPUCache/
+/heroic/Local State
+/heroic/Session Storage/
+/heroic/Shared Dictionary/
+/heroic/Trust Tokens*
+/heroic/images-cache/
+/heroic/store_cache/
+/heroic/logs/
+# Heruntergeladene Programm- und Plugin-Dateien
+/nvim/pack/github/start/copilot.vim/copilot-language-server/dist/
+/ghidra/*/osgi/felixcache/
+/Code/CachedConfigurations/
+/VSCodium/CachedConfigurations/
+/Codex/Global Shortcuts Profile ID
+# Obsidian- und OBS-Laufzeitdaten
+/obsidian/Cache/
+/obsidian/Code Cache/
+/obsidian/GPUCache/
+/obsidian/Local Storage/
+/obsidian/Session Storage/
+/obsidian/logs/
+/obs-studio/profiler_data/
+/nvim-test/*.log
+/Codex/TrustTokenKeyCommitments/
+/obsidian/Cookies*
+/obsidian/IndexedDB/
+/obsidian/WebStorage/
+/obsidian/obsidian.log
+/unity3d/NS7/Puck/*.log
+/wordcraft/logs/
+/pulse/cookie

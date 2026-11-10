@@ -1,0 +1,27 @@
+{
+  "appearance": "system",
+  "title_bar": "default",
+  "roblox": {
+    "apk": null,
+    "lib_dir": null
+  },
+  "profile": "Alessio",
+  "gamemode": true,
+  "throttle": "visible",
+  "pointer_acceleration": "unlockedcursor",
+  "automatic_updates": "background",
+  "download_on": {
+    "metered": false
+  },
+  "graphics": "automatic",
+  "graphics_optimization_mode": "balanced",
+  "present_mode": "mailbox",
+  "gamepad": true,
+  "close_on_leave": false,
+  "unpacked_plugins": [],
+  "carry_launch_ticket": false,
+  "mangohud": false,
+  "audio_output": "",
+  "fullscreen_accel": "F11",
+  "multi_instance_warning_seen": false
+}

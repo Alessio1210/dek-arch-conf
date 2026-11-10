@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+(( $# )) || exit 0
+target=$(realpath -- "$1")
+if [[ -d "$target" ]]; then
+    # A directory is the project root, and the tree starts at that root.
+    exec ghostty --working-directory="$target" -e nvim '+NvimTreeOpen' -- "$target"
+else
+    exec ghostty --working-directory="$(dirname -- "$target")" -e nvim -- "$@"
+fi

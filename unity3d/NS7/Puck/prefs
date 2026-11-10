@@ -1,0 +1,47 @@
+<unity_prefs version_major="1" version_minor="1">
+	<pref name="shadowQuality" type="int">0</pref>
+	<pref name="Screenmanager Resolution Use Native Default" type="int">1</pref>
+	<pref name="team" type="int">1</pref>
+	<pref name="UnitySelectMonitor" type="int">0</pref>
+	<pref name="unity.player_session_count" type="string">MTA=</pref>
+	<pref name="keyBinds" type="string">ewogICJNb3ZlIEZvcndhcmQiOiB7CiAgICAiTW9kaWZpZXJQYXRoIjogIiIsCiAgICAiUGF0aCI6ICJcdTAwM0NLZXlib2FyZFx1MDAzRS93IiwKICAgICJJbnRlcmFjdGlvbnMiOiAiIgogIH0sCiAgIk1vdmUgQmFja3dhcmQiOiB7CiAgICAiTW9kaWZpZXJQYXRoIjogIiIsCiAgICAiUGF0aCI6ICJcdTAwM0NLZXlib2FyZFx1MDAzRS9zIiwKICAgICJJbnRlcmFjdGlvbnMiOiAiIgogIH0sCiAgIlR1cm4gTGVmdCI6IHsKICAgICJNb2RpZmllclBhdGgiOiAiIiwKICAgICJQYXRoIjogIlx1MDAzQ0tleWJvYXJkXHUwMDNFL2EiLAogICAgIkludGVyYWN0aW9ucyI6ICIiCiAgfSwKICAiVHVybiBSaWdodCI6IHsKICAgICJNb2RpZmllclBhdGgiOiAiIiwKICAgICJQYXRoIjogIlx1MDAzQ0tleWJvYXJkXHUwMDNFL2QiLAogICAgIkludGVyYWN0aW9ucyI6ICIiCiAgfSwKICAiQmxhZGUgQW5nbGUgVXAiOiB7CiAgICAiTW9kaWZpZXJQYXRoIjogIiIsCiAgICAiUGF0aCI6ICJcdTAwM0NNb3VzZVx1MDAzRS9zY3JvbGwvdXAiLAogICAgIkludGVyYWN0aW9ucyI6ICIiCiAgfSwKICAiQmxhZGUgQW5nbGUgRG93biI6IHsKICAgICJNb2RpZmllclBhdGgiOiAiIiwKICAgICJQYXRoIjogIlx1MDAzQ01vdXNlXHUwMDNFL3Njcm9sbC9kb3duIiwKICAgICJJbnRlcmFjdGlvbnMiOiAiIgogIH0sCiAgIlNsaWRlIjogewogICAgIk1vZGlmaWVyUGF0aCI6ICIiLAogICAgIlBhdGgiOiAiXHUwMDNDS2V5Ym9hcmRcdTAwM0UvbGVmdEN0cmwiLAogICAgIkludGVyYWN0aW9ucyI6ICIiCiAgfSwKICAiU3ByaW50IjogewogICAgIk1vZGlmaWVyUGF0aCI6ICIiLAogICAgIlBhdGgiOiAiXHUwMDNDS2V5Ym9hcmRcdTAwM0UvbGVmdFNoaWZ0IiwKICAgICJJbnRlcmFjdGlvbnMiOiAiIgogIH0sCiAgIlRyYWNrIjogewogICAgIk1vZGlmaWVyUGF0aCI6ICIiLAogICAgIlBhdGgiOiAiXHUwMDNDTW91c2VcdTAwM0UvbGVmdEJ1dHRvbiIsCiAgICAiSW50ZXJhY3Rpb25zIjogIiIKICB9LAogICJMb29rIjogewogICAgIk1vZGlmaWVyUGF0aCI6ICIiLAogICAgIlBhdGgiOiAiXHUwMDNDTW91c2VcdTAwM0UvcmlnaHRCdXR0b24iLAogICAgIkludGVyYWN0aW9ucyI6ICIiCiAgfSwKICAiSnVtcCI6IHsKICAgICJNb2RpZmllclBhdGgiOiAiIiwKICAgICJQYXRoIjogIlx1MDAzQ0tleWJvYXJkXHUwMDNFL3NwYWNlIiwKICAgICJJbnRlcmFjdGlvbnMiOiAiIgogIH0sCiAgIlN0b3AiOiB7CiAgICAiTW9kaWZpZXJQYXRoIjogIiIsCiAgICAiUGF0aCI6ICJcdTAwM0NLZXlib2FyZFx1MDAzRS9hbHQiLAogICAgIkludGVyYWN0aW9ucyI6ICIiCiAgfSwKICAiVHdpc3QgTGVmdCI6IHsKICAgICJNb2RpZmllclBhdGgiOiAiIiwKICAgICJQYXRoIjogIlx1MDAzQ0tleWJvYXJkXHUwMDNFL2EiLAogICAgIkludGVyYWN0aW9ucyI6ICJEb3VibGVQcmVzcyIKICB9LAogICJUd2lzdCBSaWdodCI6IHsKICAgICJNb2RpZmllclBhdGgiOiAiIiwKICAgICJQYXRoIjogIlx1MDAzQ0tleWJvYXJkXHUwMDNFL2QiLAogICAgIkludGVyYWN0aW9ucyI6ICJEb3VibGVQcmVzcyIKICB9LAogICJEYXNoIExlZnQiOiB7CiAgICAiTW9kaWZpZXJQYXRoIjogIiIsCiAgICAiUGF0aCI6ICJcdTAwM0NLZXlib2FyZFx1MDAzRS9hIiwKICAgICJJbnRlcmFjdGlvbnMiOiAiRG91YmxlUHJlc3MiCiAgfSwKICAiRGFzaCBSaWdodCI6IHsKICAgICJNb2RpZmllclBhdGgiOiAiIiwKICAgICJQYXRoIjogIlx1MDAzQ0tleWJvYXJkXHUwMDNFL2QiLAogICAgIkludGVyYWN0aW9ucyI6ICJEb3VibGVQcmVzcyIKICB9LAogICJFeHRlbmQgTGVmdCI6IHsKICAgICJNb2RpZmllclBhdGgiOiAiIiwKICAgICJQYXRoIjogIlx1MDAzQ0tleWJvYXJkXHUwMDNFL3EiLAogICAgIkludGVyYWN0aW9ucyI6ICIiCiAgfSwKICAiRXh0ZW5kIFJpZ2h0IjogewogICAgIk1vZGlmaWVyUGF0aCI6ICIiLAogICAgIlBhdGgiOiAiXHUwMDNDS2V5Ym9hcmRcdTAwM0UvZSIsCiAgICAiSW50ZXJhY3Rpb25zIjogIiIKICB9LAogICJMYXRlcmFsIExlZnQiOiB7CiAgICAiTW9kaWZpZXJQYXRoIjogIiIsCiAgICAiUGF0aCI6ICJcdTAwM0NLZXlib2FyZFx1MDAzRS9xIiwKICAgICJJbnRlcmFjdGlvbnMiOiAiIgogIH0sCiAgIkxhdGVyYWwgUmlnaHQiOiB7CiAgICAiTW9kaWZpZXJQYXRoIjogIiIsCiAgICAiUGF0aCI6ICJcdTAwM0NLZXlib2FyZFx1MDAzRS9lIiwKICAgICJJbnRlcmFjdGlvbnMiOiAiIgogIH0sCiAgIlRhbGsiOiB7CiAgICAiTW9kaWZpZXJQYXRoIjogIiIsCiAgICAiUGF0aCI6ICJcdTAwM0NLZXlib2FyZFx1MDAzRS92IiwKICAgICJJbnRlcmFjdGlvbnMiOiAiIgogIH0sCiAgIkFsbCBDaGF0IjogewogICAgIk1vZGlmaWVyUGF0aCI6ICIiLAogICAgIlBhdGgiOiAiXHUwMDNDS2V5Ym9hcmRcdTAwM0UveSIsCiAgICAiSW50ZXJhY3Rpb25zIjogIiIKICB9LAogICJUZWFtIENoYXQiOiB7CiAgICAiTW9kaWZpZXJQYXRoIjogIiIsCiAgICAiUGF0aCI6ICJcdTAwM0NLZXlib2FyZFx1MDAzRS91IiwKICAgICJJbnRlcmFjdGlvbnMiOiAiIgogIH0sCiAgIlBvc2l0aW9uIFNlbGVjdCI6IHsKICAgICJNb2RpZmllclBhdGgiOiAiIiwKICAgICJQYXRoIjogIlx1MDAzQ0tleWJvYXJkXHUwMDNFL3AiLAogICAgIkludGVyYWN0aW9ucyI6ICIiCiAgfSwKICAiU2NvcmVib2FyZCI6IHsKICAgICJNb2RpZmllclBhdGgiOiAiIiwKICAgICJQYXRoIjogIlx1MDAzQ0tleWJvYXJkXHUwMDNFL3RhYiIsCiAgICAiSW50ZXJhY3Rpb25zIjogIiIKICB9LAogICJEZWJ1ZyAxIjogewogICAgIk1vZGlmaWVyUGF0aCI6IG51bGwsCiAgICAiUGF0aCI6ICJcdTAwM0NLZXlib2FyZFx1MDAzRS9mNSIsCiAgICAiSW50ZXJhY3Rpb25zIjogIiIKICB9Cn0=</pref>
+	<pref name="unity_connect.mega_session_id" type="string">ODMzYzcxMTMtOTQ3Zi0xNDhjLWNhN2QtMjIyNTMyYjhmMTc3</pref>
+	<pref name="globalStickSensitivity" type="float">0.152</pref>
+	<pref name="Screenmanager Resolution Width" type="int">2560</pref>
+	<pref name="debug" type="int">0</pref>
+	<pref name="cameraAngle" type="float">23.200001</pref>
+	<pref name="beardID" type="int">1540</pref>
+	<pref name="fpsLimit" type="int">500</pref>
+	<pref name="Screenmanager Fullscreen mode Default" type="int">1</pref>
+	<pref name="Screenmanager Resolution Height" type="int">1080</pref>
+	<pref name="resolutionIndex" type="int">30</pref>
+	<pref name="Screenmanager Resolution Height Default" type="int">1080</pref>
+	<pref name="motionBlur" type="int">0</pref>
+	<pref name="unity_connect.installation_id" type="string">NzJlN2M1MTctYTgwYi0zYjRkLWM4YjEtNmViOTM5YzM1NTQ1</pref>
+	<pref name="Screenmanager Fullscreen mode" type="int">1</pref>
+	<pref name="stickSkinIDBlueAttacker" type="int">2622</pref>
+	<pref name="vSync" type="int">0</pref>
+	<pref name="stickBladeTapeIDBlueAttacker" type="int">3087</pref>
+	<pref name="Screenmanager Window Position Y" type="int">0</pref>
+	<pref name="jerseyIDBlueAttacker" type="int">2054</pref>
+	<pref name="flagID" type="int">-1</pref>
+	<pref name="Screenmanager Resolution Width Default" type="int">1920</pref>
+	<pref name="keyBindMigration_chatOpenInteractionReleaseToPress_v1" type="int">1</pref>
+	<pref name="showPuckOutline" type="int">1</pref>
+	<pref name="headgearIDBlueAttacker" type="int">516</pref>
+	<pref name="role" type="int">1</pref>
+	<pref name="fov" type="float">119</pref>
+	<pref name="mustacheID" type="int">1026</pref>
+	<pref name="unity.player_sessionid" type="string">NjE3OTE5MDU5OTk0MTQ1MjI2NA==</pref>
+	<pref name="Screenmanager Window Position X" type="int">0</pref>
+	<pref name="quality" type="int">0</pref>
+	<pref name="unity_connect.session_id" type="string">YmY4OGU5OGYtZTEzZC0yYWYzLTFiY2YtOTdiN2UyNjI0YjBm</pref>
+	<pref name="stickSkinIDRedAttacker" type="int">2622</pref>
+	<pref name="UnityGraphicsQuality" type="int">0</pref>
+	<pref name="applyForBothTeams" type="int">1</pref>
+	<pref name="handedness" type="int">2</pref>
+	<pref name="Screenmanager Resolution Use Native" type="int">0</pref>
+	<pref name="modsStatus" type="string">eyIzODAwMDA5NzM4Ijp0cnVlLCIzNDk3NTUwOTY0Ijp0cnVlfQ==</pref>
+	<pref name="maxMatchmakingPing" type="int">300</pref>
+	<pref name="fullScreenMode" type="int">1</pref>
+</unity_prefs>

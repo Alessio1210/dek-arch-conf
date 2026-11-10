@@ -1,0 +1,19 @@
+{
+  "name": "mist-forest",
+  "desktop": true,
+  "automatic": true,
+  "wallpaper": "/home/alessio/.config/quickshell/hyprquickpaper/wallpapers/mist-forest.png",
+  "image_signature": "1793453939395711887:2498691",
+  "colors": {
+    "surface": "#ed0d1410",
+    "raised": "#0d1410",
+    "hover": "#1f2e25",
+    "line": "#334c3e",
+    "text": "#e5ebe8",
+    "muted": "#98aea2",
+    "accent": "#acc9b8",
+    "green": "#a0c5bb",
+    "blue": "#a9c2cb",
+    "danger": "#df9291"
+  }
+}

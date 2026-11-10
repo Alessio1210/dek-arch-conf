@@ -1,0 +1,15 @@
+[mgr]
+prepend_keymap = [
+  { on = [":", "f", "i"], run = 'shell "python3 /home/alessio/.config/yazi/scripts/search.py grep" --block', desc = "Grep all home files (including hidden)" },
+  { on = [":", "f", "f"], run = 'shell "python3 /home/alessio/.config/yazi/scripts/search.py folders" --block', desc = "Find any folder in home" },
+  { on = [":", "f", "n"], run = 'shell "python3 /home/alessio/.config/yazi/scripts/search.py files" --block', desc = "Find any filename in home" },
+  { on = ";", run = "shell --interactive", desc = "Run a shell command" },
+  { on = "<Enter>", run = "open", desc = "Open in Neovim / image viewer" },
+  { on = "e", run = 'shell "/home/alessio/.config/yazi/scripts/nvim-window %h" --orphan', desc = "Edit hovered file or folder in new Neovim window" },
+  { on = "E", run = 'shell "/home/alessio/.config/yazi/scripts/nvim-window ." --orphan', desc = "Open current folder as Neovim project" },
+  { on = "l", run = "enter", desc = "Browse into folder" },
+  { on = "<Right>", run = "enter", desc = "Browse into folder" },
+  { on = ["g", "h"], run = "cd ~", desc = "Home" },
+  { on = ["g", "c"], run = "cd ~/.config", desc = "Configuration" },
+  { on = ["g", "p"], run = "cd ~/projects", desc = "Projects" },
+]

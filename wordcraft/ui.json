@@ -1,0 +1,50 @@
+{
+  "tab": "Home",
+  "backstage": false,
+  "backstagePage": "home",
+  "ribbonCollapsed": false,
+  "recent": [
+    "/home/alessio/Documents/Alessio_Betz_Lebenslauf.docx",
+    "/home/alessio/OpenBot/Shared/Alessio_Betz_Lebenslauf.docx",
+    "/home/alessio/Downloads/Alessio_Betz_Anschreiben.docx",
+    "/home/alessio/Downloads/Alessio Betz CV EN.docx",
+    "/home/alessio/Alessio_Betz_Lebenslauf.docx",
+    "/home/alessio/OpenBot/Shared/Transfers/753952c9-2cb9-4993-9aff-0140aa55d50a/Alessio Betz CV EN.docx",
+    "/home/alessio/Downloads/Telegram Desktop/tracked wallet.docx",
+    "/home/alessio/Downloads/AP2_Masterplan_1.0.md",
+    "/home/alessio/projects/Berufsschule/Projektdokumentation/Projektdokumentation Alessio Betz Winter 2026-2027 - Arbeitskopie mit Vorlagen.docx"
+  ],
+  "recentSymbols": [],
+  "theme": "light",
+  "navTab": "headings",
+  "showDiscord": true,
+  "author": "WordCraft User",
+  "window": {
+    "position": null,
+    "width": 760.0,
+    "height": 508.0,
+    "maximized": true,
+    "monitor": null
+  },
+  "language": "auto",
+  "editing": {
+    "countNotes": true,
+    "markup": {
+      "comments": true,
+      "ink": true,
+      "insertionsDeletions": true,
+      "formatting": true,
+      "balloons": "commentsAndFormatting",
+      "insertMark": "underline",
+      "insertColor": null,
+      "deleteMark": "strikethrough",
+      "deleteColor": null,
+      "changedLines": "outside",
+      "changedLinesColor": null,
+      "trackFormatting": true
+    }
+  },
+  "readAloudRate": 1.0,
+  "readAloudSkipCitations": true,
+  "darkPage": false
+}

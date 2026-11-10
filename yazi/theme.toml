@@ -1,0 +1,265 @@
+# Nord palette, based on the matching upstream Yazi 26.9.1 preset.
+# If the user's terminal is in dark mode, Yazi will load `theme-dark.toml` on startup; otherwise, `theme-light.toml`.
+# You can override any parts of them that are not related to the dark/light mode in your own `theme.toml`.
+
+# If you want to dynamically override their content based on dark/light mode, you can specify two different flavors
+# for dark and light modes under `[flavor]`, and do so in those flavors instead.
+
+#:schema https://yazi-rs.github.io/schemas/theme.json
+# vim:fileencoding=utf-8:foldmethod=marker
+
+# : Flavor {{{
+
+[flavor]
+dark  = ""
+light = ""
+
+# : }}}
+
+
+# : App {{{
+
+[app]
+overall = { fg = "#d8dee9", bg = "#2e3440" }
+
+# : }}}
+
+
+# : Manager {{{
+
+[mgr]
+cwd = { fg = "#88c0d0" }
+
+# Find
+find_keyword  = { fg = "#ebcb8b", bold = true, italic = true, underline = true }
+find_position = { fg = "#b48ead", bg = "reset", bold = true, italic = true }
+
+# Symlink
+symlink_target = { italic = true }
+
+# Marker
+marker_copied   = { fg = "#a3be8c",  bg = "#a3be8c" }
+marker_cut      = { fg = "#bf616a",    bg = "#bf616a" }
+marker_marked   = { fg = "#8fbcbb",   bg = "#8fbcbb" }
+marker_selected = { fg = "#ebcb8b", bg = "#ebcb8b" }
+marker_symbol   = "│"
+
+# Count
+count_copied   = { fg = "#eceff4", bg = "#a3be8c" }
+count_cut      = { fg = "#eceff4", bg = "#bf616a" }
+count_selected = { fg = "#2e3440", bg = "#ebcb8b" }
+
+# Border
+border_symbol = "│"
+border_style  = { fg = "#4c566a" }
+
+# Highlighting
+syntect_theme = "/home/alessio/.config/yazi/nord.tmTheme"
+
+# : }}}
+
+
+# : Tabs {{{
+
+[tabs]
+active   = { bg = "#81a1c1", bold = true }
+inactive = { fg = "#81a1c1", bg = "#4c566a" }
+
+# Separator
+sep_inner = { open = "", close = "" }
+sep_outer = { open = "", close = "" }
+
+# : }}}
+
+
+# : Mode {{{
+
+[mode]
+normal_main = { bg = "#81a1c1", bold = true }
+normal_alt  = { fg = "#81a1c1", bg = "#4c566a" }
+
+# Select mode
+select_main = { bg = "#bf616a", bold = true }
+select_alt  = { fg = "#bf616a", bg = "#4c566a" }
+
+# Unset mode
+unset_main = { bg = "#bf616a", bold = true }
+unset_alt  = { fg = "#bf616a", bg = "#4c566a" }
+
+# : }}}
+
+
+# : Indicator of hovered file {{{
+
+[indicator]
+parent  = { fg = "#eceff4", bg = "#3b4252", bold = true }
+current = { fg = "#eceff4", bg = "#434c5e", bold = true }
+preview = { underline = true }
+padding = { open = "", close = "" }
+
+# : }}}
+
+
+# : Status bar {{{
+
+[status]
+overall   = {}
+sep_left  = { open = "", close = "" }
+sep_right = { open = "", close = "" }
+
+# Permissions
+perm_sep   = { fg = "#4c566a" }
+perm_type  = { fg = "#a3be8c" }
+perm_read  = { fg = "#ebcb8b" }
+perm_write = { fg = "#bf616a" }
+perm_exec  = { fg = "#88c0d0" }
+
+# Progress
+progress_label  = { bold = true }
+progress_normal = { fg = "#a3be8c", bg = "#2e3440" }
+progress_error  = { fg = "#ebcb8b", bg = "#bf616a" }
+
+# : }}}
+
+
+# : Which {{{
+
+[which]
+border          = { fg = "#81a1c1" }
+cols            = 3
+mask            = {}
+cand            = { fg = "#8fbcbb" }
+rest            = { fg = "#4c566a" }
+desc            = { fg = "#b48ead" }
+separator       = "  "
+separator_style = { fg = "#4c566a" }
+
+# : }}}
+
+
+# : Confirmation {{{
+
+[confirm]
+border     = { fg = "#81a1c1" }
+title      = { fg = "#81a1c1" }
+body       = {}
+list       = {}
+btn_yes    = { reversed = true }
+btn_no     = {}
+btn_labels = [ "  [Y]es  ", "  (N)o  " ]
+
+# : }}}
+
+
+# : Spotter {{{
+
+[spot]
+border = { fg = "#81a1c1" }
+title  = { fg = "#81a1c1" }
+
+# Table
+tbl_col  = { fg = "#81a1c1" }
+tbl_cell = { fg = "#ebcb8b", reversed = true }
+
+# : }}}
+
+
+# : Notification {{{
+
+[notify]
+title_info  = { fg = "#a3be8c" }
+title_warn  = { fg = "#ebcb8b" }
+title_error = { fg = "#bf616a" }
+
+# Icons
+icon_info  = ""
+icon_warn  = ""
+icon_error = ""
+
+# : }}}
+
+
+# : Picker {{{
+
+[pick]
+border   = { fg = "#81a1c1" }
+active   = { fg = "#b48ead", bold = true }
+inactive = {}
+
+# : }}}
+
+
+# : Input {{{
+
+[input]
+border   = { fg = "#81a1c1" }
+title    = {}
+value    = {}
+selected = { reversed = true }
+
+# : }}}
+
+
+# : Completion {{{
+
+[cmp]
+border   = { fg = "#81a1c1" }
+active   = { reversed = true }
+inactive = {}
+
+# Icons
+icon_file    = ""
+icon_folder  = ""
+icon_command = ""
+
+# : }}}
+
+
+# : Task manager {{{
+
+[tasks]
+border  = { fg = "#81a1c1" }
+title   = {}
+hovered = { fg = "#b48ead", bold = true }
+
+# : }}}
+
+
+# : Help menu {{{
+
+[help]
+border  = { fg = "#81a1c1" }
+chord   = { fg = "#88c0d0" }
+action  = {}
+hovered = { reversed = true, bold = true }
+
+# : }}}
+
+
+# : File-specific styles {{{
+
+[filetype]
+rules = [
+	# Image
+	{ mime = "**/image/*", fg = "#ebcb8b" },
+	# Media
+	{ mime = "**/{audio,video}/*", fg = "#b48ead" },
+	# Archive
+	{ mime = "**/application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "#bf616a" },
+	# Document
+	{ mime = "**/application/{pdf,doc,rtf}", fg = "#88c0d0" },
+	# Virtual file system
+	{ mime = "vfs/{absent,stale}", fg = "#4c566a" },
+	# Special file
+	{ url = "*", is = "orphan", bg = "#bf616a" },
+	{ url = "*", is = "exec"  , fg = "#a3be8c" },
+	# Dummy file
+	{ url = "*", is = "dummy", bg = "#bf616a" },
+	{ url = "*/", is = "dummy", bg = "#bf616a" },
+	# Fallback
+	{ url = "*/", fg = "#81a1c1" }
+]
+
+# : }}}
+
+

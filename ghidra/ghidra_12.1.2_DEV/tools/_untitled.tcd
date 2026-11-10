@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TOOL_CONFIG CONFIG_NAME="NO_LONGER_USED">
+    <ICON LOCATION="view_detailed.png" />
+    <TOOL TOOL_NAME="Untitled" INSTANCE_NAME="">
+        <OPTIONS />
+        <ROOT_NODE X_POS="13" Y_POS="63" WIDTH="1259" HEIGHT="1004" EX_STATE="0" />
+        <PREFERENCES />
+        <EXTENSIONS />
+    </TOOL>
+</TOOL_CONFIG>

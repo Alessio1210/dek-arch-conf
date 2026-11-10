@@ -1,0 +1,294 @@
+[
+{
+    "output": "DP-1",
+    "layer": "top",
+    "position": "top",
+    "height": 34,
+    "spacing": 8,
+    "margin-top": 8,
+    "margin-left": 10,
+    "margin-right": 10,
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "hyprland/window"
+    ],
+    "modules-right": [
+        "custom/swaync",
+        "custom/media",
+        "network",
+        "cpu",
+        "memory",
+        "pulseaudio",
+        "temperature",
+        "custom/nightlight",
+        "battery",
+        "clock",
+        "clock#us",
+        "custom/solana_price",
+        "tray",
+        "custom/lock_screen",
+        "custom/change_user",
+        "custom/suspend",
+        "custom/shutdown"
+    ],
+    "hyprland/workspaces": {
+        "all-outputs": true,
+        "format": "{icon}",
+        "format-icons": {
+            "1": "",
+            "2": "",
+            "3": "󰈹",
+            "4": "󰊴",
+            "5": "",
+            "default": "",
+            "active": "",
+            "urgent": ""
+        },
+        "sort-by-number": true,
+        "persistent-workspaces": {
+            "*": 5
+        }
+    },
+    "hyprland/window": {
+        "format": "{}",
+        "max-length": 70,
+        "separate-outputs": true
+    },
+    "clock": {
+        "format": "{:%a %d %b  %H:%M}",
+        "tooltip": true,
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+    "clock#us": {
+        "timezone": "America/New_York",
+        "format": "US {:%H:%M}",
+        "tooltip-format": "New York: {:%a %d %b %Y, %H:%M %Z}"
+    },
+    "custom/solana_price": {
+        "exec": "bash /home/alessio/.config/waybar/scripts/solana_price.sh",
+        "interval": 600,
+        "format": "{}",
+        "tooltip-format": "SOL/EUR via CoinGecko · refreshes every 10 minutes"
+    },
+    "network": {
+        "format-wifi": "{essid}  {signalStrength}%",
+        "format-ethernet": "{ifname}",
+        "format-disconnected": "Offline",
+        "tooltip-format": "{ifname} via {gwaddr}",
+        "on-click": "bash /home/alessio/.config/waybar/scripts/wifi_ip.sh"
+    },
+    "cpu": {
+        "format": "{usage}% ",
+        "tooltip": false,
+        "on-click": "bash /home/alessio/.config/waybar/scripts/btop.sh"
+    },
+    "memory": {
+        "format": "{percentage}% "
+    },
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "󰝟 Muted",
+        "format-icons": {
+            "default": [
+                "",
+                "",
+                ""
+            ]
+        },
+        "on-click": "pavucontrol"
+    },
+    "temperature": {
+        "critical-threshold": 80,
+        "format": "{temperatureC}°C {icon}",
+        "format-icons": [
+            "",
+            "",
+            ""
+        ]
+    },
+    "custom/nightlight": {
+        "exec": "/home/alessio/.config/hypr/scripts/nightlight.sh waybar",
+        "interval": 5,
+        "return-type": "json",
+        "tooltip": true,
+        "on-click": "/home/alessio/.config/hypr/scripts/nightlight.sh toggle"
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-alt": "{time} {icon}",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    "tray": {
+        "spacing": 8
+    },
+    "custom/media": {
+        "format": "{}",
+        "escape": true,
+        "return-type": "json",
+        "max-length": 40,
+        "tooltip": true,
+        "tooltip-format": "{}",
+        "exec-if": "command -v playerctl >/dev/null 2>&1",
+        "exec": "~/.config/waybar/scripts/mediaplayer.py",
+        "on-click": "playerctl play-pause",
+        "on-click-right": "playerctl stop",
+        "on-scroll-up": "playerctl next",
+        "on-scroll-down": "playerctl previous"
+    },
+    "custom/swaync": {
+        "format": "{icon}",
+        "format-icons": {
+            "notification": "",
+            "none": "",
+            "dnd-notification": "",
+            "dnd-none": ""
+        },
+        "return-type": "json",
+        "exec-if": "command -v swaync-client >/dev/null 2>&1",
+        "exec": "swaync-client -swb",
+        "on-click": "sleep 0.1 && swaync-client -t -sw",
+        "escape": true,
+        "tooltip": false
+    },
+    "custom/lock_screen": {
+        "format": "",
+        "tooltip": true,
+        "tooltip-format": "Lock screen",
+        "on-click": "bash /home/alessio/.config/waybar/scripts/lock.sh"
+    },
+    "custom/change_user": {
+        "format": "",
+        "tooltip": true,
+        "tooltip-format": "Logout / change user",
+        "on-click": "bash /home/alessio/.config/waybar/scripts/change_user.sh"
+    },
+    "custom/suspend": {
+        "format": "󰤄",
+        "tooltip": true,
+        "tooltip-format": "Suspend",
+        "on-click": "bash /home/alessio/.config/waybar/scripts/suspend.sh"
+    },
+    "custom/shutdown": {
+        "format": "",
+        "tooltip": true,
+        "tooltip-format": "Shutdown",
+        "on-click": "bash /home/alessio/.config/waybar/scripts/shutdown.sh"
+    }
+},
+{
+    // Compact bar for the 1080 px wide portrait display.
+    "output": "HDMI-A-1",
+    "layer": "top",
+    "position": "top",
+    "height": 34,
+    "spacing": 8,
+    "margin-top": 8,
+    "margin-left": 10,
+    "margin-right": 10,
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "hyprland/window"
+    ],
+    "modules-right": [
+        "custom/swaync",
+        "network",
+        "pulseaudio",
+        "custom/nightlight",
+        "battery",
+        "clock",
+        "tray"
+    ],
+    "hyprland/workspaces": {
+        "all-outputs": false,
+        "format": "{icon}",
+        "format-icons": {
+            "8": "",
+            "9": "",
+            "10": "",
+            "default": "",
+            "active": "",
+            "urgent": ""
+        },
+        "sort-by-number": true,
+        "persistent-workspaces": {
+            "HDMI-A-1": [8, 9, 10]
+        }
+    },
+    "hyprland/window": {
+        "format": "{}",
+        "max-length": 24,
+        "separate-outputs": true
+    },
+    "clock": {
+        "format": "{:%a %d %b  %H:%M}",
+        "tooltip": true,
+        "tooltip-format": "<big>{:%Y %B}</big>\\n<tt><small>{calendar}</small></tt>"
+    },
+    "network": {
+        "format-wifi": " {signalStrength}%",
+        "format-ethernet": "{ifname}",
+        "format-disconnected": "Offline",
+        "tooltip-format": "{ifname} via {gwaddr}",
+        "on-click": "bash /home/alessio/.config/waybar/scripts/wifi_ip.sh"
+    },
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "󰝟 Muted",
+        "format-icons": {
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "tray": {
+        "spacing": 8
+    },
+    "custom/nightlight": {
+        "exec": "/home/alessio/.config/hypr/scripts/nightlight.sh waybar",
+        "interval": 5,
+        "return-type": "json",
+        "tooltip": true,
+        "on-click": "/home/alessio/.config/hypr/scripts/nightlight.sh toggle"
+    },
+    "custom/swaync": {
+        "format": "{icon}",
+        "format-icons": {
+            "notification": "",
+            "none": "",
+            "dnd-notification": "",
+            "dnd-none": ""
+        },
+        "return-type": "json",
+        "exec-if": "command -v swaync-client >/dev/null 2>&1",
+        "exec": "swaync-client -swb",
+        "on-click": "sleep 0.1 && swaync-client -t -sw",
+        "escape": true,
+        "tooltip": false
+    }
+}
+]

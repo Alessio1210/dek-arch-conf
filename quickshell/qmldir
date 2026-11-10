@@ -1,0 +1,17 @@
+module Desktop
+singleton Theme 1.0 Theme.qml
+singleton SystemStatus 1.0 SystemStatus.qml
+Bar 1.0 Bar.qml
+BarButton 1.0 BarButton.qml
+BarContent 1.0 BarContent.qml
+BatteryMonitor 1.0 BatteryMonitor.qml
+BrightnessMonitor 1.0 BrightnessMonitor.qml
+Clock 1.0 Clock.qml
+DesktopContent 1.0 DesktopContent.qml
+DwlService 1.0 DwlService.qml
+HyprlandWorkspace 1.0 HyprlandWorkspace.qml
+Mango 1.0 Mango.qml
+MemoryMonitor 1.0 MemoryMonitor.qml
+PopupContent 1.0 PopupContent.qml
+Rice 1.0 Rice.qml
+VolumeMonitor 1.0 VolumeMonitor.qml

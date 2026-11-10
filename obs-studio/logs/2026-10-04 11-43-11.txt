@@ -1,0 +1,152 @@
+11:43:11.943: Platform: Wayland
+11:43:11.943: CPU Name: AMD Ryzen 5 5600 6-Core Processor
+11:43:11.943: CPU Speed: 3548.620MHz
+11:43:11.943: Physical Cores: 6, Logical Cores: 12
+11:43:11.943: Physical Memory: 48091MB Total, 36402MB Free
+11:43:11.943: Kernel Version: Linux 7.2.8-arch1-2
+11:43:11.943: Distribution: "Arch Linux" Unknown
+11:43:11.943: Desktop Environment: Hyprland (Hyprland)
+11:43:11.943: Session Type: wayland
+11:43:11.944: Current Date/Time: 2026-10-04, 11:43:11 AM
+11:43:11.944: Browser Hardware Acceleration: true
+11:43:11.944: Qt Version: 6.11.2 (runtime), 6.11.1 (compiled)
+11:43:11.944: Portable mode: false
+11:43:11.969: OBS 32.2.2 (linux)
+11:43:11.969: ---------------------------------
+11:43:11.975: ---------------------------------
+11:43:11.975: audio settings reset:
+11:43:11.975: 	samples per sec: 48000
+11:43:11.975: 	speakers:        2
+11:43:11.975: 	max buffering:   960 milliseconds
+11:43:11.975: 	buffering type:  dynamically increasing
+11:43:11.976: ---------------------------------
+11:43:11.976: Initializing OpenGL...
+11:43:11.976: Using EGL/Wayland
+11:43:12.021: Initialized EGL 1.5
+11:43:12.068: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2
+11:43:12.068: OpenGL loaded successfully, version 3.3.0 NVIDIA 615.71.09, shading language 3.30 NVIDIA via Cg compiler
+11:43:12.087: ---------------------------------
+11:43:12.087: video settings reset:
+11:43:12.087: 	base resolution:   1920x1080
+11:43:12.087: 	output resolution: 1920x1080
+11:43:12.087: 	downscale filter:  Bicubic
+11:43:12.087: 	fps:               60/1
+11:43:12.087: 	format:            NV12
+11:43:12.087: 	YUV mode:          Rec. 709/Partial
+11:43:12.088: NV12 texture support enabled
+11:43:12.088: P010 texture support not available
+11:43:12.088: Audio monitoring device:
+11:43:12.088: 	name: Default
+11:43:12.088: 	id: default
+11:43:12.119: ---------------------------------
+11:43:12.121: Failed to load 'en-US' text for module: 'decklink-captions.so'
+11:43:12.122: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+11:43:12.123: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+11:43:12.123: Failed to initialize module 'decklink.so'
+11:43:12.214: [pipewire] Available capture sources:
+11:43:12.214: [pipewire]     - Monitor source
+11:43:12.214: [pipewire]     - Window source
+11:43:12.504: VAAPI: API version 1.24
+11:43:12.582: FFmpeg VAAPI H264 encoding not supported
+11:43:12.886: FFmpeg VAAPI AV1 encoding not supported
+11:43:13.200: FFmpeg VAAPI HEVC encoding not supported
+11:43:13.448: [obs-nvenc] NVENC version: 13.1 (compiled) / 13.1 (driver), CUDA driver version: 13.40, AV1 supported: false
+11:43:14.376: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.7.4 | RPC Version: 1)
+11:43:14.376: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.11.1 | Qt version (run-time): 6.11.2
+11:43:14.376: [obs-websocket] [obs_module_load] Linked ASIO Version: 103802
+11:43:14.379: [obs-websocket] [obs_module_load] Module loaded.
+11:43:14.382: ---------------------------------
+11:43:14.382:   Loaded Modules:
+11:43:14.382:     text-freetype2.so
+11:43:14.382:     rtmp-services.so
+11:43:14.382:     obs-x264.so
+11:43:14.382:     obs-websocket.so
+11:43:14.382:     obs-webrtc.so
+11:43:14.382:     obs-vst.so
+11:43:14.382:     obs-transitions.so
+11:43:14.382:     obs-qsv11.so
+11:43:14.382:     obs-outputs.so
+11:43:14.382:     obs-nvenc.so
+11:43:14.382:     obs-libfdk.so
+11:43:14.382:     obs-filters.so
+11:43:14.382:     obs-ffmpeg.so
+11:43:14.382:     linux-v4l2.so
+11:43:14.382:     linux-pulseaudio.so
+11:43:14.382:     linux-pipewire.so
+11:43:14.382:     linux-jack.so
+11:43:14.382:     linux-capture.so
+11:43:14.382:     linux-alsa.so
+11:43:14.382:     image-source.so
+11:43:14.382:     frontend-tools.so
+11:43:14.382:     decklink-output-ui.so
+11:43:14.382:     decklink-captions.so
+11:43:14.382: ---------------------------------
+11:43:14.382: ---------------------------------
+11:43:14.382: Available Encoders:
+11:43:14.382:   Video Encoders:
+11:43:14.382: 	- ffmpeg_svt_av1 (SVT-AV1)
+11:43:14.382: 	- ffmpeg_aom_av1 (AOM AV1)
+11:43:14.382: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+11:43:14.382: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+11:43:14.382: 	- obs_x264 (x264)
+11:43:14.382:   Audio Encoders:
+11:43:14.382: 	- ffmpeg_aac (FFmpeg AAC)
+11:43:14.382: 	- ffmpeg_opus (FFmpeg Opus)
+11:43:14.382: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+11:43:14.382: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+11:43:14.382: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+11:43:14.382: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+11:43:14.382: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+11:43:14.382: 	- libfdk_aac (libfdk AAC)
+11:43:14.382: ==== Startup complete ===============================================
+11:43:14.408: Failed to register with host portal QDBusError("org.freedesktop.portal.Error.Failed", "Could not register app ID: Connection already associated with an application ID")
+11:43:14.408: All scene data cleared
+11:43:14.408: ------------------------------------------------
+11:43:14.414: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+11:43:14.414: Deduplication logic is being applied to all monitored sources.
+11:43:14.414: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.9) 15.0.0'
+11:43:14.414: pulse-input: Audio format: s24le, 48000 Hz, 2 channels
+11:43:14.414: pulse-input: Sample format s24le not supported by OBS,using float32le instead for recording
+11:43:14.414: pulse-input: Started recording from 'alsa_output.usb-Apple__Inc._EarPods_KN72754W29-00.analog-stereo.monitor' (default)
+11:43:14.414: [Loaded global audio device]: 'Desktop Audio'
+11:43:14.415: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.9) 15.0.0'
+11:43:14.415: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+11:43:14.415: pulse-input: Started recording from 'alsa_input.pci-0000_07_00.4.pro-input-0' (default)
+11:43:14.415: [Loaded global audio device]: 'Mic/Aux'
+11:43:14.415: PipeWire initialized
+11:43:14.416: Switched to scene 'Scene'
+11:43:14.416: ------------------------------------------------
+11:43:14.416: Loaded scenes:
+11:43:14.416: - scene 'Scene':
+11:43:14.416:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+11:43:14.417: ------------------------------------------------
+11:43:14.429: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+11:43:14.429: Deduplication logic is being applied to all monitored sources.
+11:43:14.464: [pipewire] Screencast session created
+11:43:14.962: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+11:43:14.962: 
+11:43:15.796: [pipewire] Asking for monitor and window
+11:43:15.798: [pipewire] source selected, setting up screencast
+11:43:15.802: [pipewire] Server version: 1.6.9
+11:43:15.802: [pipewire] Library version: 1.6.9
+11:43:15.802: [pipewire] Header version: 1.6.8
+11:43:15.802: [pipewire] Created stream 0x564ba72cca40
+11:43:15.802: [pipewire] Stream 0x564ba72cca40 state: "connecting" (error: none)
+11:43:15.803: [pipewire] Playing stream 0x564ba72cca40
+11:43:15.803: [pipewire] Stream 0x564ba72cca40 state: "paused" (error: none)
+11:43:15.849: [pipewire] Negotiated format:
+11:43:15.849: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+11:43:15.849: [pipewire]     Modifier: 0x0
+11:43:15.849: [pipewire]     Size: 2560x1080
+11:43:15.849: [pipewire]     Framerate: 0/1
+11:43:15.849: [pipewire] Negotiated format:
+11:43:15.849: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+11:43:15.849: [pipewire]     Modifier: 0x300000000e08014
+11:43:15.849: [pipewire]     Size: 2560x1080
+11:43:15.849: [pipewire]     Framerate: 0/1
+11:43:15.850: [pipewire] Stream 0x564ba72cca40 state: "streaming" (error: none)
+11:43:21.750: Virtual camera started
+11:43:21.767: ==== Virtual Camera Start ==========================================
+11:43:21.767: Starting Virtual Camera output to Program
+12:36:08.871: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+12:36:08.871: 

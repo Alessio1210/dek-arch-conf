@@ -1,0 +1,6 @@
+{
+  "wallpaper_path": "~/.config/quickshell/hyprquickpaper/wallpapers",
+  "template": "carousel",
+  "recursive": true,
+  "transitions": true
+}

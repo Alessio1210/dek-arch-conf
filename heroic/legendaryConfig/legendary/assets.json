@@ -1,0 +1,47 @@
+{
+  "Windows": [
+    {
+      "app_name": "Sugar",
+      "asset_id": "Sugar",
+      "build_version": "++Prime+Update60.1-CL-533021",
+      "catalog_item_id": "530145df28a24424923f5828cc9031a1",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "9773aa1aa54f4f7b80e44bef04986cea",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "aa31f9e94e844b299ca757d1d0b97a09",
+      "asset_id": "aa31f9e94e844b299ca757d1d0b97a09",
+      "build_version": "++Fortnite+Release-43.00-CL-59596594-Windows",
+      "catalog_item_id": "0b41f0192f7f4f2691684581aedc0778",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "fn",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "Fortnite",
+      "asset_id": "Fortnite",
+      "build_version": "++Fortnite+Release-43.00-CL-59596594-Windows",
+      "catalog_item_id": "4fe75bbc5a674f4f9b356b5c90567da5",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "hasDependencyConfig": true,
+        "installationPoolId": "FortniteInstallationPool"
+      },
+      "namespace": "fn",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "94bc5ec13f8f438c97fdbef3e9019e27",
+      "asset_id": "94bc5ec13f8f438c97fdbef3e9019e27",
+      "build_version": "++Fortnite+Release-43.00-CL-59596594-Windows",
+      "catalog_item_id": "b619cf61a4144d67bd753dc990637e7c",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "fn",
+      "sidecar_rev": 0
+    }
+  ]
+}

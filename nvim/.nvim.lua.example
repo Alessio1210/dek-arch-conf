@@ -1,0 +1,20 @@
+return {
+	-- Copied into a project root as `.nvim.lua`.
+	-- Relative paths are resolved against this file's directory.
+	--
+	-- Set the default working directory for DAP launches.
+	cwd = ".",
+
+	-- Point this at the interpreter you actually want to debug.
+	-- Example: `.venv/Scripts/python.exe`
+	-- If omitted, the global resolver will look for .venv/venv/env/.env first.
+	-- python = ".venv/Scripts/python.exe",
+
+	-- Optional per-project DAP overrides.
+	-- dap = {
+	--   python_attach_port = 5678,
+	--   python = {
+	--     -- Extend with your own DAP settings if needed.
+	--   },
+	-- },
+}

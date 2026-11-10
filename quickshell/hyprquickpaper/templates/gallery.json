@@ -1,0 +1,14 @@
+{
+  "name": "Gallery",
+  "layout": "gallery",
+  "background": "#ed080c10",
+  "surface": "#151d24",
+  "text": "#eff6f6",
+  "muted": "#96abb6",
+  "accent": "#76c7b6",
+  "radius": 10,
+  "card_width": 240,
+  "card_height": 180,
+  "spacing": 16,
+  "animation_ms": 140
+}

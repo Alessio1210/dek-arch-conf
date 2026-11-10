@@ -1,0 +1,14 @@
+{
+  "name": "Ocean",
+  "colors": {
+    "surface": "#f20d1014",
+    "raised": "#142331",
+    "hover": "#233d50",
+    "line": "#2b455a",
+    "text": "#eee9e2",
+    "muted": "#8d99a7",
+    "accent": "#78b9ef",
+    "green": "#a3c9b2",
+    "blue": "#a8c7df"
+  }
+}

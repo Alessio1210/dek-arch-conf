@@ -1,0 +1,41 @@
+{
+  "Sugar": {
+    "autoInstallDxvk": true,
+    "autoInstallDxvkNvapi": true,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": true,
+    "enableMsync": false,
+    "enableFsync": true,
+    "enableWineWayland": false,
+    "enableHDR": false,
+    "enableWoW64": false,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": false,
+    "useGameMode": false,
+    "battlEyeRuntime": true,
+    "eacRuntime": true,
+    "language": "",
+    "beforeLaunchScriptPath": "",
+    "afterLaunchScriptPath": "",
+    "verboseLogs": true,
+    "advertiseAvxForRosetta": false,
+    "enableQuickSavesMenu": false,
+    "wineVersion": {
+      "bin": "/home/alessio/.config/heroic/tools/proton/Proton-CachyOS-latest/proton",
+      "name": "Proton-CachyOS-latest",
+      "type": "proton"
+    },
+    "winePrefix": "/home/alessio/Games/Heroic/Prefixes/Rocket League",
+    "wineCrossoverBottle": "",
+    "lastUsedLaunchOption": {
+      "name": "Default",
+      "parameters": "",
+      "type": "basic"
+    }
+  },
+  "version": "v0",
+  "explicit": true
+}

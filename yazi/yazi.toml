@@ -1,0 +1,38 @@
+# Yazi 26.9.1 — Nord colors, roomy image previews, external Neovim.
+[mgr]
+ratio = [1, 3, 4]
+sort_by = "natural"
+sort_dir_first = true
+show_hidden = true
+show_symlink = true
+linemode = "size"
+scrolloff = 8
+mouse_events = ["click", "scroll", "drag"]
+
+[preview]
+max_width = 1600
+max_height = 1600
+image_filter = "lanczos3"
+image_quality = 90
+image_delay = 50
+wrap = "yes"
+
+[opener]
+edit = [
+  { run = '/home/alessio/.config/yazi/scripts/nvim-window %s', orphan = true, desc = "Neovim · new Ghostty window", for = "linux" },
+]
+image = [
+  { run = 'xdg-open %s1', orphan = true, desc = "Image viewer · PhotoCraft", for = "linux" },
+]
+
+[open]
+prepend_rules = [
+  { mime = "inode/directory", use = "edit" },
+  { mime = "image/*", use = "image" },
+  { url = "*.{png,jpg,jpeg,jpe,jfif,gif,webp,avif,bmp,ico,tif,tiff,svg,heic,heif,PNG,JPG,JPEG,GIF,WEBP,SVG}", use = "image" },
+  { mime = "text/*", use = "edit" },
+  { mime = "application/{json,javascript,xml,toml,yaml,x-shellscript,x-empty}", use = "edit" },
+]
+append_rules = [
+  { url = "*", use = "edit" },
+]
