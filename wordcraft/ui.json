@@ -1,9 +1,12 @@
 {
   "tab": "Home",
-  "backstage": false,
+  "backstage": true,
   "backstagePage": "home",
   "ribbonCollapsed": false,
   "recent": [
+    "/home/alessio/Documents/Alessio_Betz_Anschreiben.docx",
+    "/home/alessio/OpenBot/Shared/Transfers/generated/d59e09da-3ec6-4770-a313-f1f0786c38d3/Alessio_Betz_Anschreiben_Union_Investment_v2.docx",
+    "/home/alessio/OpenBot/Shared/Transfers/generated/29e809f0-548f-4018-be17-67566cd5bc40/Alessio_Betz_Anschreiben_Union_Investment.docx",
     "/home/alessio/Documents/Alessio_Betz_Lebenslauf.docx",
     "/home/alessio/OpenBot/Shared/Alessio_Betz_Lebenslauf.docx",
     "/home/alessio/Downloads/Alessio_Betz_Anschreiben.docx",
@@ -22,7 +25,7 @@
   "window": {
     "position": null,
     "width": 760.0,
-    "height": 508.0,
+    "height": 480.0,
     "maximized": true,
     "monitor": null
   },

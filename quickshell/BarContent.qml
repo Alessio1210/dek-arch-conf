@@ -203,14 +203,6 @@ Rectangle {
             tooltip: "New York · America/New_York (mit Sommerzeit)"
             interactive: false
         }
-        BarButton {
-            transparentStyle: true
-            visible: !root.compact
-            text: SystemStatus.solana
-            foreground: Theme.green
-            tooltip: "SOL/EUR · CoinGecko · Aktualisierung alle 10 Minuten"
-            onClicked: SystemStatus.launch(["xdg-open", "https://www.coingecko.com/en/coins/solana/eur"])
-        }
         Row {
             spacing: 3
             Repeater {

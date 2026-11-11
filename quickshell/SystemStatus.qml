@@ -9,7 +9,6 @@ Singleton {
     id: root
     property var stats: ({cpu: 0, memory: 0, memoryDetail: "", temperature: null, battery: null,
                           brightness: null, network: {name: "…", device: "", wifi: false, signal: null}, newYork: "--:--"})
-    property string solana: "SOL · …"
     property var nightlight: ({text: "☀", tooltip: "Nachtlicht", class: "off"})
     property var notifications: ({class: "none", text: "0"})
     readonly property var player: {
@@ -35,12 +34,6 @@ Singleton {
         onExited: (code, status) => restartSampler.restart()
     }
     Timer { id: restartSampler; interval: 5000; onTriggered: sampler.running = true }
-    Process {
-        id: price
-        running: true
-        command: ["bash", Quickshell.env("HOME") + "/.config/waybar/scripts/solana_price.sh"]
-        stdout: SplitParser { onRead: line => root.solana = line.replace("1 SOL = ", "SOL · ").replace("unavailable", "—") }
-    }
     Timer { interval: 600000; running: true; repeat: true; onTriggered: price.running = true }
     Process {
         id: night
